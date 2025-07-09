@@ -32,24 +32,24 @@ export function DiscoverSection() {
   ];
 
   return (
-    <section className="py-16 px-4 bg-background">
+    <section className="py-12 md:py-16 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-12">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center text-foreground mb-8 md:mb-12">
           What You'll Discover Inside This Book
         </h2>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div className="space-y-4 md:space-y-6">
             {discoveries.map((item, index) => (
               <Card key={index} className="border-natural-green-light hover:shadow-natural transition-all duration-300">
-                <CardContent className="p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="bg-natural-green-light rounded-lg p-3">
-                      <item.icon className="w-6 h-6 text-natural-green" />
+                <CardContent className="p-4 md:p-6">
+                  <div className="flex items-start gap-3 md:gap-4">
+                    <div className="bg-natural-green-light rounded-lg p-2 md:p-3">
+                      <item.icon className="w-5 h-5 md:w-6 md:h-6 text-natural-green" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-lg text-foreground mb-2">{item.title}</h3>
-                      <p className="text-muted-foreground">{item.description}</p>
+                      <h3 className="font-bold text-base md:text-lg text-foreground mb-1 md:mb-2">{item.title}</h3>
+                      <p className="text-sm md:text-base text-muted-foreground">{item.description}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -57,7 +57,7 @@ export function DiscoverSection() {
             ))}
           </div>
 
-          <div className="flex justify-center">
+          <div className="flex justify-center order-first lg:order-last">
             <img 
               src={openBookImage} 
               alt="Open book showing labeled pages"
