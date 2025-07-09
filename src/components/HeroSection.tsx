@@ -2,10 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Users, Clock } from "lucide-react";
 import heroImage from "@/assets/healing-handbook-hero.jpg";
-
 export function HeroSection() {
-  return (
-    <section className="bg-gradient-subtle py-16 px-4">
+  return <section className="bg-gradient-subtle py-16 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-8">
           <div className="text-3xl font-bold text-natural-green mb-2">
@@ -55,14 +53,9 @@ export function HeroSection() {
           </div>
 
           <div className="flex justify-center">
-            <img 
-              src={heroImage} 
-              alt="The Natural Healing Handbook"
-              className="rounded-2xl shadow-natural max-w-full h-auto"
-            />
+            
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 }
