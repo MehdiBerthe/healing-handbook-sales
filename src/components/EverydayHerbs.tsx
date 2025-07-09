@@ -43,8 +43,8 @@ export function EverydayHerbs() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="flex justify-center lg:order-last">
             <img 
-              src={herbsImage} 
-              alt="Everyday herbs and ingredients with arrows"
+              src="/lovable-uploads/0c14fb35-ac35-4555-808d-4a5df6e33484.png" 
+              alt="Everyday herbs and ingredients with arrows showing chemical compounds"
               className="rounded-2xl shadow-warm max-w-full h-auto"
             />
           </div>
