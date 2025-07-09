@@ -1,6 +1,6 @@
 export function TopBanner() {
   return (
-    <div className="bg-gradient-natural text-white py-2 md:py-3 px-4 text-center font-bold animate-pulse">
+    <div className="sticky top-0 z-50 bg-gradient-natural text-white py-2 md:py-3 px-4 text-center font-bold animate-pulse">
       <div className="container mx-auto">
         <div className="text-sm md:text-lg lg:text-xl">
           ⚡ UP TO 80% OFF YOUR FIRST ORDER + 2 FREE GIFTS ⚡
