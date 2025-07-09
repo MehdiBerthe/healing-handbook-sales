@@ -43,19 +43,28 @@ export function OfferStack() {
         <div className="max-w-3xl mx-auto">
           <Card className="bg-white/90 backdrop-blur-sm border-healing-accent/20 shadow-warm mb-8">
             <CardContent className="p-6 md:p-8">
-              <div className="space-y-6">
-                {offerItems.map((item, index) => (
-                  <div key={index} className="flex items-start gap-4">
-                    <div className="p-2 bg-gradient-natural rounded-full">
-                      <item.icon className="w-5 h-5 text-white" />
+              <div className="flex flex-col md:flex-row gap-6 md:gap-8 mb-8">
+                <div className="md:w-1/3">
+                  <img 
+                    src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=300&h=400&fit=crop&crop=center"
+                    alt="Natural Healing Handbook"
+                    className="w-full h-64 md:h-80 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+                <div className="md:w-2/3 space-y-6">
+                  {offerItems.map((item, index) => (
+                    <div key={index} className="flex items-start gap-4">
+                      <div className="p-2 bg-gradient-natural rounded-full">
+                        <item.icon className="w-5 h-5 text-white" />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="font-semibold text-healing-dark mb-1">{item.title}</h3>
+                        <p className="text-sm text-healing-dark/70">{item.description}</p>
+                      </div>
+                      <Check className="w-5 h-5 text-natural-green mt-1" />
                     </div>
-                    <div className="flex-1">
-                      <h3 className="font-semibold text-healing-dark mb-1">{item.title}</h3>
-                      <p className="text-sm text-healing-dark/70">{item.description}</p>
-                    </div>
-                    <Check className="w-5 h-5 text-natural-green mt-1" />
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
 
               <div className="mt-8 pt-6 border-t border-healing-accent/20">
