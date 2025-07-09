@@ -14,9 +14,16 @@ export function HeroSection() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="flex justify-center">
-            <div className="w-80 h-96 bg-muted rounded-lg shadow-natural flex items-center justify-center">
-              <span className="text-muted-foreground text-lg font-medium">Product Image</span>
+          <div className="flex justify-center relative">
+            <div className="relative">
+              <div className="absolute -top-4 -left-4 bg-natural-green text-white px-4 py-2 rounded-lg font-bold text-sm z-10">
+                BESTSELLER
+              </div>
+              <img 
+                src="/lovable-uploads/af667fb9-5b4b-45d0-9a36-e91a59c8edbe.png" 
+                alt="The Natural Healing Handbook" 
+                className="max-w-full h-auto rounded-lg shadow-natural"
+              />
             </div>
           </div>
 
