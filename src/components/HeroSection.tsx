@@ -52,19 +52,6 @@ export function HeroSection() {
                 alt="The Natural Medicine Book" 
                 className="w-full h-auto rounded-lg shadow-natural"
               />
-              
-              {/* Zoom-in callouts - Show on desktop only */}
-              <div className="absolute -right-8 top-1/4 bg-white p-3 rounded-lg shadow-lg border-2 border-forest-green/20 max-w-[200px] z-20">
-                <div className="text-xs font-semibold text-forest-green mb-1">Safety Guidelines</div>
-                <div className="text-xs text-gray-600">Essential precautions and dosage information</div>
-                <div className="absolute -left-2 top-1/2 w-0 h-0 border-t-8 border-b-8 border-r-8 border-transparent border-r-white"></div>
-              </div>
-              
-              <div className="absolute -right-12 bottom-1/4 bg-white p-3 rounded-lg shadow-lg border-2 border-forest-green/20 max-w-[200px] z-20">
-                <div className="text-xs font-semibold text-forest-green mb-1">Side Effects & Interactions</div>
-                <div className="text-xs text-gray-600">What to watch for and avoid</div>
-                <div className="absolute -left-2 top-1/2 w-0 h-0 border-t-8 border-b-8 border-r-8 border-transparent border-r-white"></div>
-              </div>
             </div>
           </div>
 
