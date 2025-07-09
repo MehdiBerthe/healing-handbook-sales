@@ -6,25 +6,25 @@ const testimonials = [
     name: "Sarah M.",
     quote: "This book made natural healing easy. I finally understand how to use everyday ingredients the right way.",
     rating: 5,
-    photo: "https://images.unsplash.com/photo-1494790108755-2616b9c776c2?w=80&h=80&fit=crop&crop=face",
+    photo: "/lovable-uploads/2d1836c1-e547-4f54-868e-5d529633e84e.png",
   },
   {
     name: "David L.",
     quote: "A great gift! I've used herbal remedies for years and this guide gave me new insights.",
     rating: 5,
-    photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face",
+    photo: "/lovable-uploads/e7fb818a-900c-4c59-bffe-c76c703ed6f4.png",
   },
   {
     name: "Maria K.",
     quote: "Simple, clear, and incredibly practical. I love how it explains why each remedy works.",
     rating: 5,
-    photo: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face",
+    photo: "/lovable-uploads/72c0c9fe-0bcb-434d-8225-73c923ae20f5.png",
   },
   {
     name: "John R.",
     quote: "Perfect for anyone who wants to ditch pills and take charge of their health naturally.",
     rating: 5,
-    photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face",
+    photo: "/lovable-uploads/3fa42c30-9aab-4c25-8e53-4959fd8e862c.png",
   },
 ];
 
