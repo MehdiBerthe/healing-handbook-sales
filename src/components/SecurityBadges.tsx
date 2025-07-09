@@ -1,27 +1,25 @@
+import { Shield, CreditCard, Lock, CheckCircle } from "lucide-react";
+
 export function SecurityBadges() {
   return (
     <div className="text-center mt-6">
-      <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6 mb-2">
-        <img 
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Norton_logo.svg/200px-Norton_logo.svg.png" 
-          alt="Norton by Symantec" 
-          className="h-8 md:h-10 object-contain opacity-80"
-        />
-        <img 
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/McAfee_logo_%282017%29.svg/200px-McAfee_logo_%282017%29.svg.png" 
-          alt="McAfee Secure" 
-          className="h-8 md:h-10 object-contain opacity-80"
-        />
-        <img 
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa_logo.svg/200px-Visa_logo.svg.png" 
-          alt="Verified by Visa" 
-          className="h-6 md:h-8 object-contain opacity-80"
-        />
-        <img 
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mastercard_2019_logo.svg/200px-Mastercard_2019_logo.svg.png" 
-          alt="MasterCard SecureCode" 
-          className="h-6 md:h-8 object-contain opacity-80"
-        />
+      <div className="flex justify-center items-center gap-6 mb-2">
+        <div className="flex items-center gap-1.5 text-xs font-medium text-healing-dark/70">
+          <Shield className="w-4 h-4 text-forest-green" />
+          <span>NORTON</span>
+        </div>
+        <div className="flex items-center gap-1.5 text-xs font-medium text-healing-dark/70">
+          <Lock className="w-4 h-4 text-forest-green" />
+          <span>McAFEE</span>
+        </div>
+        <div className="flex items-center gap-1.5 text-xs font-medium text-healing-dark/70">
+          <CheckCircle className="w-4 h-4 text-forest-green" />
+          <span>VISA</span>
+        </div>
+        <div className="flex items-center gap-1.5 text-xs font-medium text-healing-dark/70">
+          <CreditCard className="w-4 h-4 text-forest-green" />
+          <span>MASTERCARD</span>
+        </div>
       </div>
       <p className="text-sm text-healing-dark/70 font-medium">Secure Payment</p>
     </div>
