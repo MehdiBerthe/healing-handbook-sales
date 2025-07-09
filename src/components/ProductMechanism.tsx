@@ -23,7 +23,7 @@ export function ProductMechanism() {
               <span>+</span>
               <span className="text-center">Black Pepper</span>
               <span>=</span>
-              <span className="text-natural-gold text-center">2000% Increase</span>
+              <span className="text-white font-extrabold text-center">2000% Increase</span>
             </div>
             <p className="text-xs md:text-sm mt-2 opacity-90">in bioavailability and absorption</p>
           </div>
