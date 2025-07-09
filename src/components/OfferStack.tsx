@@ -7,7 +7,7 @@ const offerItems = [{
   description: "Complete guide to natural healing"
 }, {
   icon: Gift,
-  title: "the mini garden guide",
+  title: "The Mini Garden Guide",
   description: "Value: $25 - FREE Digital Bonus"
 }, {
   icon: Gift,
@@ -36,7 +36,7 @@ export function OfferStack() {
             <CardContent className="p-6 md:p-8">
               <div className="flex flex-col md:flex-row gap-6 md:gap-8 mb-8">
                 <div className="md:w-1/3">
-                  <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=300&h=400&fit=crop&crop=center" alt="Natural Healing Handbook" className="w-full h-64 md:h-80 object-cover rounded-lg shadow-md" />
+                  <img src="/lovable-uploads/60c1ff0d-c7ef-43ee-87d4-0c434207d65b.png" alt="Natural Medicine Book Package with Digital Bonuses" className="w-full h-64 md:h-80 object-cover rounded-lg shadow-md" />
                 </div>
                 <div className="md:w-2/3 space-y-6">
                   {offerItems.map((item, index) => <div key={index} className="flex items-start gap-4">
