@@ -1,0 +1,77 @@
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Heart, Shield, Brain, Zap, Droplets, Smile } from "lucide-react";
+
+const ingredients = [
+  {
+    name: "Olive Oil",
+    description: "Heart-friendly fat that may ease inflammation and help balance blood sugar.",
+    icon: Heart,
+  },
+  {
+    name: "Garlic",
+    description: "May support blood pressure, cholesterol, and immunity.",
+    icon: Shield,
+  },
+  {
+    name: "Blueberries",
+    description: "Antioxidant-rich, brain-loving, and gut-friendly.",
+    icon: Brain,
+  },
+  {
+    name: "Ginger",
+    description: "Warms digestion, calms nausea, and eases inflammation.",
+    icon: Zap,
+  },
+  {
+    name: "Lemon",
+    description: "Rich in vitamin C, may help detox and balance pH.",
+    icon: Droplets,
+  },
+  {
+    name: "Dark Chocolate",
+    description: "Flavonoid-rich treat that supports heart and mood.",
+    icon: Smile,
+  },
+];
+
+export function IngredientBenefits() {
+  return (
+    <section className="py-12 md:py-16 bg-healing-light">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-healing-dark mb-4">
+            Everyday Ingredients. Extraordinary Results.
+          </h2>
+          <p className="text-base md:text-lg text-healing-dark/80 max-w-3xl mx-auto">
+            This handbook reveals 200+ healing uses for everyday ingredients. Here are just a few all-stars you'll learn about:
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 md:mb-12">
+          {ingredients.map((ingredient, index) => (
+            <Card key={index} className="bg-white/80 backdrop-blur-sm border-healing-accent/20 hover:shadow-warm transition-all duration-300">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="p-3 bg-gradient-natural rounded-full">
+                    <ingredient.icon className="w-6 h-6 text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-healing-dark mb-2">{ingredient.name}</h3>
+                    <p className="text-sm text-healing-dark/70">{ingredient.description}</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+
+        <div className="text-center">
+          <Button variant="cta" size="lg" className="text-lg px-8 py-3">
+            REVEAL MY OFFER
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+}
