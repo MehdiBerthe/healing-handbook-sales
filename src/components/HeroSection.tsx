@@ -14,6 +14,12 @@ export function HeroSection() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="flex justify-center">
+            <div className="w-80 h-96 bg-muted rounded-lg shadow-natural flex items-center justify-center">
+              <span className="text-muted-foreground text-lg font-medium">Product Image</span>
+            </div>
+          </div>
+
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
               Get Ready to Experience the{" "}
@@ -48,14 +54,6 @@ export function HeroSection() {
             <Button variant="cta" size="lg" className="text-xl px-12 py-6 animate-bounce">
               YES, I WANT MY BOOK NOW!
             </Button>
-          </div>
-
-          <div className="flex justify-center">
-            <img 
-              src={heroImage} 
-              alt="The Natural Healing Handbook" 
-              className="max-w-full h-auto rounded-lg shadow-natural"
-            />
           </div>
         </div>
       </div>
