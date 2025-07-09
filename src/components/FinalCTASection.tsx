@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Shield, CreditCard, Truck } from "lucide-react";
+import { Shield, CreditCard } from "lucide-react";
 
 const trustBadges = [
   {
@@ -12,11 +12,6 @@ const trustBadges = [
     icon: CreditCard,
     title: "Secure Checkout",
     description: "SSL encrypted",
-  },
-  {
-    icon: Truck,
-    title: "Fast Shipping",
-    description: "$9.99 anywhere",
   },
 ];
 
@@ -38,7 +33,7 @@ export function FinalCTASection() {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             {trustBadges.map((badge, index) => (
               <Card key={index} className="bg-white/80 backdrop-blur-sm border-healing-accent/20">
                 <CardContent className="p-6 text-center">
