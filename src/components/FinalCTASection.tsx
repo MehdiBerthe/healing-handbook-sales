@@ -32,7 +32,7 @@ export function FinalCTASection() {
             Join thousands of readers who are using nature's remedies to feel better, think clearer, and live with more energy.
           </p>
           
-          <Button variant="cta" size="lg" className="text-lg px-8 py-3 mb-8">
+          <Button variant="cta" size="lg" className="text-sm md:text-lg px-4 md:px-8 py-3 mb-8 w-full max-w-md mx-auto">
             GET THE NATURAL HEALING HANDBOOK NOW
           </Button>
         </div>
