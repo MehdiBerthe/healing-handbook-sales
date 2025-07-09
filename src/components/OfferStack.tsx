@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Check, Book, Gift, Shield, CreditCard } from "lucide-react";
 const offerItems = [{
   icon: Book,
-  title: "1x Copy of \"The Natural Medicine Book\"",
+  title: "The Mini Garden Guide",
   description: "Complete guide to natural healing"
 }, {
   icon: Gift,
