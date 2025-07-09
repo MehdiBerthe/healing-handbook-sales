@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Users, Clock } from "lucide-react";
 import heroImage from "@/assets/healing-handbook-hero.jpg";
 export function HeroSection() {
-  return <section className="bg-cream py-8 md:py-16 px-4">
+  return <section className="bg-cream py-4 md:py-8 lg:py-12 px-4">
       <div className="container mx-auto max-w-6xl">
         {/* Mobile-only layout: Image first, then trust badge */}
         <div className="lg:hidden">
@@ -31,7 +31,7 @@ export function HeroSection() {
         </div>
 
         {/* Desktop layout: Trust badge at top */}
-        <div className="hidden lg:block text-center mb-6 md:mb-8">
+        <div className="hidden lg:block text-center mb-4 lg:mb-6">
           <Badge variant="secondary" className="bg-forest-green/10 text-forest-green border-forest-green/20 text-sm">
             <Users className="w-4 h-4 mr-1" />
             Trusted by 50,000+ Herbal Wellness Readers
@@ -39,7 +39,7 @@ export function HeroSection() {
         </div>
 
         {/* Two-column layout for desktop, single column for mobile */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center min-h-[500px]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center min-h-[400px]">
           {/* Image column - left on desktop, hidden on mobile (shown above) */}
           <div className="hidden lg:flex justify-center relative">
             <div className="relative max-w-sm md:max-w-md w-full">
