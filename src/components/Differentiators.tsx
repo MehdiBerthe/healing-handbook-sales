@@ -30,7 +30,7 @@ export function Differentiators() {
   ];
 
   return (
-    <section className="py-16 px-4 bg-gradient-subtle">
+    <section className="py-16 px-2 bg-gradient-subtle">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
           What Makes The Natural Healing Handbook Special?
