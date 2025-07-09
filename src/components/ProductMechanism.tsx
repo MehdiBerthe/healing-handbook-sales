@@ -3,7 +3,7 @@ import { TrendingUp, Zap, Target } from "lucide-react";
 
 export function ProductMechanism() {
   return (
-    <section className="py-8 md:py-16 px-4 bg-background">
+    <section className="py-8 md:py-16 px-2 bg-background">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center text-foreground mb-6">
           Nature has an answer – the magic of{" "}
