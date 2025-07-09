@@ -19,7 +19,7 @@ export function SymptomAwareness() {
   ];
 
   return (
-    <section className="py-8 md:py-16 px-4 bg-natural-cream">
+    <section className="py-8 md:py-16 px-2 bg-natural-cream">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-6 md:mb-12">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-3 md:mb-4">
