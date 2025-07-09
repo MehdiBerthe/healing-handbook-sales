@@ -25,6 +25,15 @@ export function Differentiators() {
   return <section className="py-16 px-2 bg-gradient-subtle">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">What Makes The Natural Medicine Book Special?</h2>
+        
+        <div className="flex justify-center mb-8">
+          <img 
+            src="/lovable-uploads/e7b0265d-0506-436c-8280-388ee8dc8c69.png" 
+            alt="The Natural Medicine Book - Traditional Remedies for Modern Times"
+            className="w-64 md:w-80 h-auto rounded-lg shadow-warm"
+          />
+        </div>
+        
         <p className="text-xl text-center text-muted-foreground mb-12">
           It's not just another herb book—it's your complete healing system
         </p>
