@@ -21,7 +21,7 @@ export function SecurityBadges() {
           <span>MASTERCARD</span>
         </div>
       </div>
-      <p className="text-sm text-healing-dark/70 font-medium">Secure Payment</p>
+      
     </div>
   );
 }
