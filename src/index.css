@@ -48,6 +48,8 @@ All colors MUST be HSL.
     --natural-gold-light: 35 40% 90%;
     --natural-cream: 45 25% 96%;
     --natural-brown: 25 30% 25%;
+    --forest-green: 140 60% 20%;
+    --cream: 45 40% 97%;
 
     --gradient-natural: linear-gradient(135deg, hsl(140 50% 35%), hsl(35 70% 60%));
     --gradient-subtle: linear-gradient(180deg, hsl(45 25% 98%), hsl(45 30% 92%));
