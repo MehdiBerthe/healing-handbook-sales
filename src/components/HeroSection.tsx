@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Users, Clock } from "lucide-react";
 import heroImage from "@/assets/healing-handbook-hero.jpg";
+import { SecurityBadges } from "@/components/SecurityBadges";
 export function HeroSection() {
   return <section className="bg-cream py-4 md:py-8 lg:py-12 px-4">
       <div className="container mx-auto max-w-6xl">
@@ -107,6 +108,8 @@ export function HeroSection() {
             <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto animate-pulse">
               YES, I WANT MY BOOK NOW!
             </Button>
+            
+            <SecurityBadges />
           </div>
         </div>
       </div>

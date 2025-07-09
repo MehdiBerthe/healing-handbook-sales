@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, CreditCard } from "lucide-react";
+import { SecurityBadges } from "@/components/SecurityBadges";
 
 const trustBadges = [
   {
@@ -30,6 +31,8 @@ export function FinalCTASection() {
           <Button variant="cta" size="lg" className="text-sm md:text-lg px-4 md:px-8 py-3 mb-8 w-full max-w-md mx-auto">
             GET THE NATURAL HEALING HANDBOOK NOW
           </Button>
+          
+          <SecurityBadges />
         </div>
 
         <div className="max-w-4xl mx-auto">

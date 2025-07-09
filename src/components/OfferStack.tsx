@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Check, Book, Gift, Shield, CreditCard } from "lucide-react";
+import { SecurityBadges } from "@/components/SecurityBadges";
 const offerItems = [{
   icon: Book,
   title: "1x Copy of the Natural Medicine Book",
@@ -62,6 +63,8 @@ export function OfferStack() {
                   <Button variant="cta" size="lg" className="text-lg px-8 py-3">
                     SEND ME MY COPY NOW!
                   </Button>
+                  
+                  <SecurityBadges />
                 </div>
               </div>
             </CardContent>
