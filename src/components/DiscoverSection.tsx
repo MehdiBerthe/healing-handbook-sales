@@ -1,0 +1,71 @@
+import { Card, CardContent } from "@/components/ui/card";
+import { Leaf, Target, Clock, Shield, Heart } from "lucide-react";
+import openBookImage from "@/assets/open-book-pages.jpg";
+
+export function DiscoverSection() {
+  const discoveries = [
+    {
+      icon: Leaf,
+      title: "Healing Herbs & Synergies",
+      description: "Learn which herbs work better together"
+    },
+    {
+      icon: Target,
+      title: "Targeted Recipes for Common Ailments",
+      description: "Specific solutions for your health concerns"
+    },
+    {
+      icon: Clock,
+      title: "Everyday Healing Rituals",
+      description: "Simple daily practices for optimal health"
+    },
+    {
+      icon: Shield,
+      title: "Trusted Supplement Guide",
+      description: "Know what works and what doesn't"
+    },
+    {
+      icon: Heart,
+      title: "Real-Life Transformations",
+      description: "Stories from people just like you"
+    }
+  ];
+
+  return (
+    <section className="py-16 px-4 bg-background">
+      <div className="container mx-auto max-w-6xl">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-12">
+          What You'll Discover Inside This Book
+        </h2>
+
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="space-y-6">
+            {discoveries.map((item, index) => (
+              <Card key={index} className="border-natural-green-light hover:shadow-natural transition-all duration-300">
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="bg-natural-green-light rounded-lg p-3">
+                      <item.icon className="w-6 h-6 text-natural-green" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-lg text-foreground mb-2">{item.title}</h3>
+                      <p className="text-muted-foreground">{item.description}</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <div className="flex justify-center">
+            <img 
+              src={openBookImage} 
+              alt="Open book showing labeled pages"
+              className="rounded-2xl shadow-natural max-w-full h-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
