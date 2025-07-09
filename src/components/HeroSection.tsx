@@ -51,7 +51,11 @@ export function HeroSection() {
           </div>
 
           <div className="flex justify-center">
-            
+            <img 
+              src={heroImage} 
+              alt="The Natural Healing Handbook" 
+              className="max-w-full h-auto rounded-lg shadow-natural"
+            />
           </div>
         </div>
       </div>
