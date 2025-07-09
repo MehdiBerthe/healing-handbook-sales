@@ -12,26 +12,26 @@ export function HeroSection() {
           </Badge>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="flex justify-center relative">
-            <div className="relative">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[500px]">
+          <div className="flex justify-center relative order-2 lg:order-1">
+            <div className="relative max-w-md w-full">
               <div className="absolute -top-4 -left-4 bg-forest-green text-white px-4 py-2 rounded-lg font-bold text-sm z-10">
                 BESTSELLER
               </div>
               <img 
                 src="/lovable-uploads/af667fb9-5b4b-45d0-9a36-e91a59c8edbe.png" 
                 alt="The Natural Medicine Book" 
-                className="max-w-full h-auto rounded-lg shadow-natural"
+                className="w-full h-auto rounded-lg shadow-natural"
               />
               
               {/* Zoom-in callouts */}
-              <div className="absolute -right-8 top-1/4 bg-white p-3 rounded-lg shadow-lg border-2 border-forest-green/20 max-w-[200px]">
+              <div className="hidden lg:block absolute -right-8 top-1/4 bg-white p-3 rounded-lg shadow-lg border-2 border-forest-green/20 max-w-[200px] z-20">
                 <div className="text-xs font-semibold text-forest-green mb-1">Safety Guidelines</div>
                 <div className="text-xs text-gray-600">Essential precautions and dosage information</div>
                 <div className="absolute -left-2 top-1/2 w-0 h-0 border-t-8 border-b-8 border-r-8 border-transparent border-r-white"></div>
               </div>
               
-              <div className="absolute -right-12 bottom-1/4 bg-white p-3 rounded-lg shadow-lg border-2 border-forest-green/20 max-w-[200px]">
+              <div className="hidden lg:block absolute -right-12 bottom-1/4 bg-white p-3 rounded-lg shadow-lg border-2 border-forest-green/20 max-w-[200px] z-20">
                 <div className="text-xs font-semibold text-forest-green mb-1">Side Effects & Interactions</div>
                 <div className="text-xs text-gray-600">What to watch for and avoid</div>
                 <div className="absolute -left-2 top-1/2 w-0 h-0 border-t-8 border-b-8 border-r-8 border-transparent border-r-white"></div>
@@ -39,7 +39,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="text-center lg:text-left">
+          <div className="text-center lg:text-left order-1 lg:order-2">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-forest-green mb-6 leading-tight font-merriweather">
               Get Ready to Unlock the{" "}
               <span className="text-natural-green">Healing Power</span>{" "}
