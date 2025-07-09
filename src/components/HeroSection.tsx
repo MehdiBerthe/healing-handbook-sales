@@ -5,7 +5,8 @@ import heroImage from "@/assets/healing-handbook-hero.jpg";
 export function HeroSection() {
   return <section className="bg-cream py-8 md:py-16 px-4">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-6 md:mb-8">
+        {/* Trust badge - shown at top on desktop, moved to bottom on mobile */}
+        <div className="hidden md:block text-center mb-6 md:mb-8">
           <Badge variant="secondary" className="mb-4 md:mb-6 bg-forest-green/10 text-forest-green border-forest-green/20 text-sm">
             <Users className="w-4 h-4 mr-1" />
             Trusted by 50,000+ Herbal Wellness Readers
@@ -79,6 +80,14 @@ export function HeroSection() {
               YES, I WANT MY BOOK NOW!
             </Button>
           </div>
+        </div>
+
+        {/* Trust badge - shown at bottom on mobile, hidden on desktop */}
+        <div className="md:hidden text-center mt-6">
+          <Badge variant="secondary" className="bg-forest-green/10 text-forest-green border-forest-green/20 text-sm">
+            <Users className="w-4 h-4 mr-1" />
+            Trusted by 50,000+ Herbal Wellness Readers
+          </Badge>
         </div>
       </div>
     </section>;
