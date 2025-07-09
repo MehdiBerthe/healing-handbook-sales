@@ -1,6 +1,6 @@
 export function PainAgitation() {
   return (
-    <section className="py-16 px-4 bg-natural-cream">
+    <section className="py-16 px-2 bg-natural-cream">
       <div className="container mx-auto max-w-4xl text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
           Are you tired of relying on pills with endless side effects?
