@@ -35,11 +35,11 @@ export function OfferStack() {
         <div className="max-w-3xl mx-auto">
           <Card className="bg-white/90 backdrop-blur-sm border-healing-accent/20 shadow-warm mb-8">
             <CardContent className="p-6 md:p-8">
-              <div className="flex flex-col md:flex-row gap-6 md:gap-8 mb-8">
-                <div className="md:w-1/3">
-                  <img src="/lovable-uploads/60c1ff0d-c7ef-43ee-87d4-0c434207d65b.png" alt="Natural Medicine Book Package with Digital Bonuses" className="w-full h-64 md:h-80 object-cover rounded-lg shadow-md" />
+              <div className="flex flex-col gap-6 md:gap-8 mb-8">
+                <div className="flex justify-center">
+                  <img src="/lovable-uploads/60c1ff0d-c7ef-43ee-87d4-0c434207d65b.png" alt="Natural Medicine Book Package with Digital Bonuses" className="w-full max-w-md h-64 md:h-80 object-cover rounded-lg shadow-md" />
                 </div>
-                <div className="md:w-2/3 space-y-6">
+                <div className="space-y-6">
                   {offerItems.map((item, index) => <div key={index} className="flex items-start gap-4">
                       <div className="p-2 bg-gradient-natural rounded-full">
                         <item.icon className="w-5 h-5 text-white" />
