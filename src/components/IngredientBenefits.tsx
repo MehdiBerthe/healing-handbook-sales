@@ -54,11 +54,7 @@ export function IngredientBenefits() {
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
                   <div className="p-2 bg-white rounded-full shadow-lg w-16 h-16 flex items-center justify-center">
-                    {ingredient.name === "Ginger" ? (
-                      <img src={gingerImage} alt="Ginger" className="w-12 h-12 object-cover rounded-full" />
-                    ) : (
-                      <span className="text-2xl">{ingredient.emoji}</span>
-                    )}
+                    <span className="text-2xl">{ingredient.emoji}</span>
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-healing-dark mb-2">{ingredient.name}</h3>
