@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import gingerImage from "@/assets/ginger.jpg";
 
 const ingredients = [
   {
@@ -52,8 +53,12 @@ export function IngredientBenefits() {
             <Card key={index} className="bg-white/80 backdrop-blur-sm border-healing-accent/20 hover:shadow-warm transition-all duration-300">
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-gradient-natural rounded-full flex items-center justify-center">
-                    <span className="text-2xl">{ingredient.emoji}</span>
+                  <div className="p-2 bg-white rounded-full shadow-lg w-16 h-16 flex items-center justify-center">
+                    {ingredient.name === "Ginger" ? (
+                      <img src={gingerImage} alt="Ginger" className="w-12 h-12 object-cover rounded-full" />
+                    ) : (
+                      <span className="text-2xl">{ingredient.emoji}</span>
+                    )}
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-healing-dark mb-2">{ingredient.name}</h3>
