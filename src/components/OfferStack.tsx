@@ -24,48 +24,90 @@ const offerItems = [{
   description: "Secure payment processing"
 }];
 export function OfferStack() {
-  return <section className="py-12 md:py-16 bg-gradient-to-br from-healing-light to-natural-sage/20">
+  return <section className="py-12 md:py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-8 md:mb-12">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-healing-dark mb-4">
-            Here's What's Inside Your Package
-          </h2>
-        </div>
-
-        <div className="max-w-3xl mx-auto">
-          <Card className="bg-white/90 backdrop-blur-sm border-healing-accent/20 shadow-warm mb-8">
+        <div className="max-w-2xl mx-auto">
+          <Card className="bg-white border-2 border-forest-green shadow-lg overflow-hidden">
+            {/* Green Header */}
+            <div className="bg-forest-green text-white text-center py-4">
+              <h2 className="text-xl md:text-2xl font-bold">LIMITED TIME OFFER</h2>
+            </div>
+            
             <CardContent className="p-6 md:p-8">
-              <div className="flex flex-col gap-6 md:gap-8 mb-8">
-                <div className="flex justify-center">
-                  <img src="/lovable-uploads/60c1ff0d-c7ef-43ee-87d4-0c434207d65b.png" alt="Natural Medicine Book Package with Digital Bonuses" className="w-full max-w-md h-64 md:h-80 object-cover rounded-lg shadow-md" />
-                </div>
-                <div className="space-y-6">
-                  {offerItems.map((item, index) => <div key={index} className="flex items-start gap-4">
-                      <div className="p-2 bg-gradient-natural rounded-full">
-                        <item.icon className="w-5 h-5 text-white" />
-                      </div>
-                      <div className="flex-1">
-                        <h3 className="font-semibold text-healing-dark mb-1">{item.title}</h3>
-                        <p className="text-sm text-healing-dark/70">{item.description}</p>
-                      </div>
-                      <Check className="w-5 h-5 text-natural-green mt-1" />
-                    </div>)}
+              {/* Product Image */}
+              <div className="flex justify-center mb-6">
+                <img 
+                  src="/lovable-uploads/ed11b73b-147c-49dc-b8b4-f67801dbdfb6.png" 
+                  alt="Natural Medicine Book Package with Digital Bonuses" 
+                  className="w-full max-w-lg h-auto"
+                />
+              </div>
+
+              {/* Title */}
+              <div className="text-center mb-6">
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+                  Natural Healing Handbook
+                </h3>
+                <p className="text-gray-600 text-lg">
+                  The Complete Guide to Safe, Natural Blood Sugar Support—Backed by Tradition and Science
+                </p>
+              </div>
+
+              {/* Your Order Includes */}
+              <div className="mb-8">
+                <h4 className="text-xl font-bold text-gray-900 text-center mb-6">Your Order Includes:</h4>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <Check className="w-6 h-6 text-forest-green mt-1 flex-shrink-0" />
+                    <span className="text-gray-900 font-medium">Physical copy of the Natural Healing Handbook</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Check className="w-6 h-6 text-forest-green mt-1 flex-shrink-0" />
+                    <div>
+                      <span className="text-gray-900 font-medium">Instant access to 2 FREE digital bonuses:</span>
+                      <ul className="ml-6 mt-2 space-y-1">
+                        <li className="text-gray-700">• The Backyard Medicine Garden (a $25 value)</li>
+                        <li className="text-gray-700">• Herbal SOS (a $20 value)</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Check className="w-6 h-6 text-forest-green mt-1 flex-shrink-0" />
+                    <span className="text-gray-900 font-medium">60-Day 100% Money-Back Guarantee – no questions asked</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Check className="w-6 h-6 text-forest-green mt-1 flex-shrink-0" />
+                    <span className="text-gray-900 font-medium">FREE Shipping when you order 2 or more copies</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Check className="w-6 h-6 text-forest-green mt-1 flex-shrink-0" />
+                    <span className="text-gray-900 font-medium">Safe & Secure Checkout – We accept Paypal, Visa, Mastercard, Amex & Discover</span>
+                  </div>
                 </div>
               </div>
 
-              <div className="mt-8 pt-6 border-t border-healing-accent/20">
-                <div className="text-center">
-                  <div className="mb-4">
-                    <span className="text-3xl md:text-4xl font-bold text-healing-dark">$37</span>
-                    <span className="text-lg text-healing-dark/60 line-through ml-2">$149</span>
-                    
-                  </div>
-                  <Button variant="cta" size="lg" className="text-lg px-8 py-3">
-                    SEND ME MY COPY NOW!
-                  </Button>
-                  
-                  <SecurityBadges />
+              {/* Pricing */}
+              <div className="text-center mb-6">
+                <div className="mb-4">
+                  <span className="text-4xl md:text-5xl font-bold text-gray-900">only $37</span>
+                  <span className="text-lg text-gray-500 line-through ml-2">(Regular Price $149)</span>
                 </div>
+                <p className="text-forest-green font-medium text-lg">
+                  (Plus $9.99 shipping for your book delivery via first class delivery.)
+                </p>
+              </div>
+
+              {/* CTA Button */}
+              <div className="text-center mb-6">
+                <Button className="bg-forest-green hover:bg-forest-green/90 text-white font-bold text-lg px-8 py-4 rounded-lg w-full md:w-auto">
+                  SEND ME MY COPY NOW!
+                </Button>
+              </div>
+
+              {/* Security Text */}
+              <div className="text-center">
+                <p className="text-gray-900 font-bold">Secure Payment</p>
+                <SecurityBadges />
               </div>
             </CardContent>
           </Card>
