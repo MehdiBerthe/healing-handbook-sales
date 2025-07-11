@@ -28,7 +28,7 @@ export function Differentiators() {
         
         <div className="flex justify-center mb-8">
           <img 
-            src="/lovable-uploads/e7b0265d-0506-436c-8280-388ee8dc8c69.png" 
+            src="/lovable-uploads/c0c00da5-b62b-446d-9451-5c90a33080b6.png" 
             alt="The Natural Medicine Book - Traditional Remedies for Modern Times"
             className="w-64 md:w-80 h-auto rounded-lg shadow-warm"
           />
