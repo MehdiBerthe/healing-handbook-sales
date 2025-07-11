@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle, Users, Clock } from "lucide-react";
+import { CheckCircle, Star, Clock } from "lucide-react";
 import heroImage from "@/assets/healing-handbook-hero.jpg";
 import { SecurityBadges } from "@/components/SecurityBadges";
 export function HeroSection() {
@@ -25,7 +25,11 @@ export function HeroSection() {
           {/* Trust badge for mobile */}
           <div className="text-center mb-6">
             <Badge variant="secondary" className="bg-forest-green/10 text-forest-green border-forest-green/20 text-sm">
-              <Users className="w-4 h-4 mr-1" />
+              <div className="flex items-center gap-1 mr-2">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-3 h-3 fill-forest-green text-forest-green" />
+                ))}
+              </div>
               Trusted by 50,000+ Herbal Wellness Readers
             </Badge>
           </div>
@@ -34,7 +38,11 @@ export function HeroSection() {
         {/* Desktop layout: Trust badge at top */}
         <div className="hidden lg:block text-center mb-4 lg:mb-6">
           <Badge variant="secondary" className="bg-forest-green/10 text-forest-green border-forest-green/20 text-sm">
-            <Users className="w-4 h-4 mr-1" />
+            <div className="flex items-center gap-1 mr-2">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-3 h-3 fill-forest-green text-forest-green" />
+              ))}
+            </div>
             Trusted by 50,000+ Herbal Wellness Readers
           </Badge>
         </div>
