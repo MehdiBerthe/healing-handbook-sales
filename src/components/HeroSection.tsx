@@ -15,7 +15,7 @@ export function HeroSection() {
                 BESTSELLER
               </div>
               <img 
-                src="/lovable-uploads/cabb9830-4a67-4b5f-ad06-9660df6b832e.png" 
+                src="/lovable-uploads/f6a0ebdb-e430-4387-89b4-669975cd0fa2.png" 
                 alt="The Natural Medicine Book" 
                 className="w-full h-auto rounded-lg shadow-natural"
               />
@@ -56,7 +56,7 @@ export function HeroSection() {
                 BESTSELLER
               </div>
               <img 
-                src="/lovable-uploads/cabb9830-4a67-4b5f-ad06-9660df6b832e.png" 
+                src="/lovable-uploads/f6a0ebdb-e430-4387-89b4-669975cd0fa2.png" 
                 alt="The Natural Medicine Book" 
                 className="w-full h-auto rounded-lg shadow-natural"
               />
