@@ -19,7 +19,10 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'merriweather': ['Merriweather', 'serif'],
+				'sans': ['Open Sans', 'system-ui', 'sans-serif'],
+				'serif': ['Source Serif Pro', 'Georgia', 'serif'],
+				'body': ['Open Sans', 'system-ui', 'sans-serif'],
+				'heading': ['Source Serif Pro', 'Georgia', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
