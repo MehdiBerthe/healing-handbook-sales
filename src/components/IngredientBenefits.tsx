@@ -1,37 +1,36 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Heart, Shield, Brain, Zap, Droplets, Smile } from "lucide-react";
 
 const ingredients = [
   {
     name: "Olive Oil",
     description: "Heart-friendly fat that may ease inflammation and help balance blood sugar.",
-    icon: Heart,
+    emoji: "🫒",
   },
   {
     name: "Garlic",
     description: "May support blood pressure, cholesterol, and immunity.",
-    icon: Shield,
+    emoji: "🧄",
   },
   {
     name: "Blueberries",
     description: "Antioxidant-rich, brain-loving, and gut-friendly.",
-    icon: Brain,
+    emoji: "🫐",
   },
   {
     name: "Ginger",
     description: "Warms digestion, calms nausea, and eases inflammation.",
-    icon: Zap,
+    emoji: "🫚",
   },
   {
     name: "Lemon",
     description: "Rich in vitamin C, may help detox and balance pH.",
-    icon: Droplets,
+    emoji: "🍋",
   },
   {
     name: "Dark Chocolate",
     description: "Flavonoid-rich treat that supports heart and mood.",
-    icon: Smile,
+    emoji: "🍫",
   },
 ];
 
@@ -53,8 +52,8 @@ export function IngredientBenefits() {
             <Card key={index} className="bg-white/80 backdrop-blur-sm border-healing-accent/20 hover:shadow-warm transition-all duration-300">
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-gradient-natural rounded-full">
-                    <ingredient.icon className="w-6 h-6 text-white" />
+                  <div className="p-3 bg-gradient-natural rounded-full flex items-center justify-center">
+                    <span className="text-2xl">{ingredient.emoji}</span>
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-healing-dark mb-2">{ingredient.name}</h3>
