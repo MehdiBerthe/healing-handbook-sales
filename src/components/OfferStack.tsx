@@ -46,7 +46,7 @@ export function OfferStack() {
               {/* Title */}
               <div className="text-center mb-6">
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-                  Natural Healing Handbook
+                  Natural Medicine Book
                 </h3>
                 <p className="text-gray-600 text-lg">
                   The Complete Guide to Safe, Natural Blood Sugar Support—Backed by Tradition and Science
