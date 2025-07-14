@@ -40,7 +40,7 @@ const benefits = [{
 }, {
   id: 5,
   icon: Brain,
-  image: "/lovable-uploads/888e57df-01ae-485b-850f-052be0855886.png",
+  image: "/lovable-uploads/da3a802e-45ea-4c54-8fc2-ab49d3591f81.png",
   title: "Stop Googling Symptoms. Know Exactly What Works and Why",
   description: "It's exhausting trying to piece together health advice from a hundred sources. This guide cuts through the noise. Instead of vague suggestions or trendy fads, you'll get clear explanations for each remedy: what it does, why it works, and how to use it.\n\nWhether you're a complete beginner or someone already using herbs, this book brings the science, tradition, and application together, so you can feel confident with every recipe."
 }, {
@@ -70,7 +70,7 @@ const benefits = [{
 }, {
   id: 10,
   icon: Heart,
-  image: "/lovable-uploads/1a43575b-9e0d-41e3-b400-267fef2ded38.png",
+  image: "/lovable-uploads/3f445193-48a7-49f1-99be-69b87c7ca8d7.png",
   title: "What Happens When Your Body Finally Feels \"Right\" Again",
   description: "When pain and fatigue pile up, it's easy to feel like you're losing touch with who you are. But healing isn't just physical, it's emotional, energetic, and deeply personal.\n\nAs your body begins to regulate and rebalance, you'll feel a renewed sense of clarity, vitality, and calm. You'll sleep better, think sharper, and move through your day with more lightness. This book isn't just about feeling better, it's about feeling like you again."
 }];
