@@ -31,7 +31,7 @@ export default function PriceOffer() {
             {/* Additional CTA Button */}
             <div className="mb-6">
               <Link to="/">
-                <Button className="bg-sky-400 hover:bg-sky-500 text-white text-xl font-bold px-12 py-6 rounded-lg w-full max-w-md">
+                <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto animate-pulse max-w-md">
                   Yes, Get 80% OFF
                 </Button>
               </Link>

@@ -28,7 +28,7 @@ export function FinalCTASection() {
             Join thousands of readers who are using nature's remedies to feel better, think clearer, and live with more energy.
           </p>
           
-          <Button variant="cta" size="lg" className="text-sm md:text-lg px-4 md:px-8 py-3 mb-8 w-full max-w-md mx-auto">
+          <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto animate-pulse mb-8 max-w-md mx-auto">
             GET THE NATURAL HEALING HANDBOOK NOW
           </Button>
           
