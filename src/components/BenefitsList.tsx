@@ -16,13 +16,13 @@ import benefit10Renewed from "@/assets/benefit-10-renewed.jpg";
 const benefits = [{
   id: 1,
   icon: Sparkles,
-  image: "/lovable-uploads/4c52dd76-f223-4dae-afee-9e5191ebf6cd.png",
+  image: "/lovable-uploads/8061ccc7-5547-46e0-baf8-b90460de891d.png",
   title: "Real Relief for Real Problems — Without More Prescriptions",
   description: "Nature doesn't work in isolation, and neither should your remedies. Herbal synergy is the art of combining plants that amplify each other's healing properties, producing effects far more powerful than any single ingredient alone.\n\nThis book unveils ancient pairings that have been quietly passed down by healers for generations, now backed by modern science. If you've ever felt like natural remedies weren't \"strong enough,\" you've just been missing the right combinations."
 }, {
   id: 2,
   icon: Stethoscope,
-  image: "/lovable-uploads/4984575d-c18e-414e-a089-780b4d7f19e5.png",
+  image: "/lovable-uploads/dc53d2eb-045a-405b-83ee-57b5cf82497d.png",
   title: "Got Joint Pain or Insomnia? Flip to the Right Page and Fix It",
   description: "You shouldn't have to be an herbalist or chemist to feel better. Whether you're dealing with stubborn joint pain, frustrating insomnia, or chronic stress, every remedy in this guide is organized by everyday ailment and crafted with accessibility in mind.\n\nNo complex instructions or hard-to-find ingredients, just step-by-step guidance using familiar items from your kitchen or local market. It's real relief, made practical."
 }, {
