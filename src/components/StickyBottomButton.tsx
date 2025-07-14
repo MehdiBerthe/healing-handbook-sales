@@ -22,7 +22,7 @@ export default function StickyBottomButton() {
       <div className="container mx-auto px-4 py-4">
         <div className="max-w-md mx-auto space-y-3">
           <Button 
-            className="w-full bg-sky-500 hover:bg-sky-600 text-white font-bold text-lg py-6 h-auto rounded-lg"
+            className="w-full bg-sky-500 hover:bg-sky-600 text-white font-bold text-lg py-3 h-auto rounded-lg"
             size="lg"
           >
             YES, GET 80% OFF
