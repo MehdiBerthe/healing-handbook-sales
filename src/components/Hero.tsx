@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="max-w-5xl mx-auto text-center space-y-8">
           {/* Main Headline */}
           <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-            <span className="text-healing-green">I Tried Natural Remedies for 30 Days</span>
+            <span className="text-green-600">I Tried Natural Remedies for 30 Days</span>
             <span className="text-earth-brown"> — Here's What Actually Helped</span>
           </h1>
           
