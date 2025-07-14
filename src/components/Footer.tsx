@@ -1,5 +1,3 @@
-import logo from "@/assets/logo.png";
-
 export default function Footer() {
   return (
     <footer className="bg-background border-t py-12">
@@ -8,7 +6,9 @@ export default function Footer() {
           {/* Logo and Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <img src={logo} alt="Natural Healing Hub" className="w-10 h-10" />
+              <div className="w-10 h-10 bg-healing-green rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-lg">NH</span>
+              </div>
               <span className="text-xl font-semibold text-foreground">Natural Healing Hub</span>
             </div>
             <p className="text-muted-foreground">
