@@ -7,6 +7,7 @@ import PriceOffer from "./PriceOffer";
 import Comments from "./Comments";
 import Guarantee from "./Guarantee";
 import Footer from "./Footer";
+import StickyBottomButton from "./StickyBottomButton";
 
 export default function LandingPage() {
   return (
@@ -20,6 +21,7 @@ export default function LandingPage() {
       <Guarantee />
       <Comments />
       <Footer />
+      <StickyBottomButton />
     </div>
   );
 }
