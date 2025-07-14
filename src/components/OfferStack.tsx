@@ -37,7 +37,7 @@ export function OfferStack() {
               {/* Product Image */}
               <div className="flex justify-center mb-6">
                 <img 
-                  src="/lovable-uploads/9d4cb41e-2284-4f6f-8fb9-f7f8c10d653a.png" 
+                  src="/lovable-uploads/440a78a5-11f3-4291-8140-e771d5085fa3.png" 
                   alt="Natural Medicine Book Package with Digital Bonuses" 
                   className="w-full max-w-lg h-auto"
                 />
