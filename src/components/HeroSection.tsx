@@ -30,7 +30,7 @@ export function HeroSection() {
                   <Star key={i} className="w-3 h-3 fill-forest-green text-forest-green" />
                 ))}
               </div>
-              Trusted by 50,000+ Herbal Wellness Readers
+              Trusted by 50,000+ Happy Customers
             </Badge>
           </div>
         </div>
@@ -43,7 +43,7 @@ export function HeroSection() {
                 <Star key={i} className="w-3 h-3 fill-forest-green text-forest-green" />
               ))}
             </div>
-            Trusted by 50,000+ Herbal Wellness Readers
+            Trusted by 50,000+ Happy Customers
           </Badge>
         </div>
 
