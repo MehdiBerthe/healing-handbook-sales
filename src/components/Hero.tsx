@@ -1,42 +1,55 @@
-import logo from "@/assets/logo.png";
+import { Button } from "@/components/ui/button";
 
-export default function Footer() {
+export default function Hero() {
   return (
-    <footer className="bg-background border-t py-12">
+    <section className="relative bg-gradient-to-br from-healing-green/10 to-natural-gold/10 py-16 lg:py-24">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="grid md:grid-cols-3 gap-8">
-          {/* Logo and Company Info */}
-          <div className="space-y-4">
-            <div className="flex items-center space-x-3">
-              <img src={logo} alt="Natural Healing Hub" className="w-10 h-10" />
-              <span className="text-xl font-semibold text-foreground">Natural Healing Hub</span>
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Content */}
+          <div className="space-y-8">
+            <div className="space-y-4">
+              <h1 className="text-4xl lg:text-6xl font-bold text-earth-brown leading-tight">
+                Discover Natural
+                <span className="text-healing-green block">Healing Secrets</span>
+              </h1>
+              <p className="text-xl lg:text-2xl text-muted-foreground">
+                Transform your health with time-tested natural remedies and ancient wisdom.
+              </p>
             </div>
-            <p className="text-muted-foreground">
-              Empowering your journey to natural wellness through time-tested remedies and modern wisdom.
-            </p>
-          </div>
-
-          {/* Quick Links */}
-          <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">Quick Links</h3>
-            <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#benefits" className="hover:text-primary transition-colors">Benefits</a></li>
-              <li><a href="#testimonials" className="hover:text-primary transition-colors">Testimonials</a></li>
-              <li><a href="#guarantee" className="hover:text-primary transition-colors">Guarantee</a></li>
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">Contact</h3>
-            <div className="text-muted-foreground space-y-2">
-              <p>support@naturalhealinghub.com</p>
-              <p>© 2025 Natural Healing Hub</p>
-              <p>All rights reserved</p>
+            
+            <div className="space-y-4">
+              <div className="flex items-center space-x-2">
+                <span className="text-healing-green">✓</span>
+                <span className="text-lg">500+ Proven Natural Remedies</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="text-healing-green">✓</span>
+                <span className="text-lg">Ancient Wisdom Meets Modern Science</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="text-healing-green">✓</span>
+                <span className="text-lg">Safe & Effective Solutions</span>
+              </div>
             </div>
+            
+            <Button 
+              size="lg" 
+              className="bg-healing-green hover:bg-healing-green/90 text-white text-xl px-8 py-4 h-auto"
+            >
+              Get Your Copy Now - Only $37
+            </Button>
+          </div>
+          
+          {/* Image */}
+          <div className="flex justify-center">
+            <img 
+              src="/lovable-uploads/75be8ae3-da9c-40e3-b737-d0a36552ca0c.png" 
+              alt="Natural Medicine Book" 
+              className="w-80 h-auto rounded-lg shadow-natural"
+            />
           </div>
         </div>
       </div>
-    </footer>
+    </section>
   );
 }

@@ -1,42 +1,41 @@
-import logo from "@/assets/logo.png";
+import { Shield } from "lucide-react";
 
-export default function Footer() {
+export default function Guarantee() {
   return (
-    <footer className="bg-background border-t py-12">
+    <section className="py-16 bg-healing-light/20">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="grid md:grid-cols-3 gap-8">
-          {/* Logo and Company Info */}
-          <div className="space-y-4">
-            <div className="flex items-center space-x-3">
-              <img src={logo} alt="Natural Healing Hub" className="w-10 h-10" />
-              <span className="text-xl font-semibold text-foreground">Natural Healing Hub</span>
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="bg-white/90 backdrop-blur-sm p-8 lg:p-12 rounded-2xl shadow-natural border border-healing-light">
+            <div className="flex justify-center mb-6">
+              <div className="bg-healing-green/10 p-4 rounded-full">
+                <Shield className="w-16 h-16 text-healing-green" />
+              </div>
             </div>
-            <p className="text-muted-foreground">
-              Empowering your journey to natural wellness through time-tested remedies and modern wisdom.
-            </p>
-          </div>
-
-          {/* Quick Links */}
-          <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">Quick Links</h3>
-            <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#benefits" className="hover:text-primary transition-colors">Benefits</a></li>
-              <li><a href="#testimonials" className="hover:text-primary transition-colors">Testimonials</a></li>
-              <li><a href="#guarantee" className="hover:text-primary transition-colors">Guarantee</a></li>
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">Contact</h3>
-            <div className="text-muted-foreground space-y-2">
-              <p>support@naturalhealinghub.com</p>
-              <p>© 2025 Natural Healing Hub</p>
-              <p>All rights reserved</p>
+            
+            <h2 className="text-3xl lg:text-4xl font-bold text-earth-brown mb-6">
+              100% Money-Back Guarantee
+            </h2>
+            
+            <div className="space-y-6 text-lg lg:text-xl text-muted-foreground">
+              <p>
+                We're so confident in the power of these natural remedies that we offer a 
+                <span className="font-bold text-healing-green"> 60-day money-back guarantee</span>.
+              </p>
+              
+              <p>
+                If you don't see improvements in your health within 60 days, simply contact us 
+                for a full refund - no questions asked.
+              </p>
+              
+              <div className="bg-healing-light/30 p-6 rounded-lg border-l-4 border-healing-green">
+                <p className="font-semibold text-earth-brown">
+                  Your satisfaction is our priority. Try it risk-free today!
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
+    </section>
   );
 }
