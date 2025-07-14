@@ -17,7 +17,7 @@ const benefits = [{
   id: 1,
   icon: Sparkles,
   image: "/lovable-uploads/8061ccc7-5547-46e0-baf8-b90460de891d.png",
-  title: "Real Relief for Real Problems — Without More Prescriptions",
+  title: "Get Real Relief for your Problems, Without More Prescriptions",
   description: "Nature doesn't work in isolation, and neither should your remedies. Herbal synergy is the art of combining plants that amplify each other's healing properties, producing effects far more powerful than any single ingredient alone.\n\nThis book unveils ancient pairings that have been quietly passed down by healers for generations, now backed by modern science. If you've ever felt like natural remedies weren't \"strong enough,\" you've just been missing the right combinations."
 }, {
   id: 2,
