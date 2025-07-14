@@ -40,13 +40,15 @@ export default function Hero() {
             </Button>
           </div>
           
-          {/* Image */}
+          {/* Image Placeholder */}
           <div className="flex justify-center">
-            <img 
-              src="/lovable-uploads/75be8ae3-da9c-40e3-b737-d0a36552ca0c.png" 
-              alt="Natural Medicine Book" 
-              className="w-80 h-auto rounded-lg shadow-natural"
-            />
+            <div className="w-80 h-96 bg-healing-green/20 rounded-lg shadow-natural flex items-center justify-center border-2 border-dashed border-healing-green">
+              <div className="text-center text-healing-green">
+                <div className="text-6xl mb-4">📖</div>
+                <p className="text-lg font-semibold">Natural Medicine Book</p>
+                <p className="text-sm">Image Placeholder</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

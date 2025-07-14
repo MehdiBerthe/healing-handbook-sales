@@ -5,7 +5,13 @@ export default function SpecialOffer() {
           <div className="bg-white/90 backdrop-blur-sm p-8 lg:p-12 rounded-2xl shadow-natural border border-healing-light">
             <div className="space-y-6">
               <div className="flex justify-center mb-6">
-                <img src="/lovable-uploads/75be8ae3-da9c-40e3-b737-d0a36552ca0c.png" alt="The Natural Medicine Book" className="w-64 h-auto rounded-lg shadow-natural" />
+                <div className="w-64 h-80 bg-healing-green/20 rounded-lg shadow-natural flex items-center justify-center border-2 border-dashed border-healing-green">
+                  <div className="text-center text-healing-green">
+                    <div className="text-4xl mb-2">📚</div>
+                    <p className="text-sm font-semibold">Book Image</p>
+                    <p className="text-xs">Placeholder</p>
+                  </div>
+                </div>
               </div>
               
               
