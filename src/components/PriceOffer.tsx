@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 export default function PriceOffer() {
   return <section className="py-16 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
@@ -29,9 +30,11 @@ export default function PriceOffer() {
             
             {/* Additional CTA Button */}
             <div className="mb-6">
-              <Button className="bg-sky-400 hover:bg-sky-500 text-white text-xl font-bold px-12 py-6 rounded-lg w-full max-w-md">
-                Yes, Get 80% OFF
-              </Button>
+              <Link to="/">
+                <Button className="bg-sky-400 hover:bg-sky-500 text-white text-xl font-bold px-12 py-6 rounded-lg w-full max-w-md">
+                  Yes, Get 80% OFF
+                </Button>
+              </Link>
             </div>
           </div>
           

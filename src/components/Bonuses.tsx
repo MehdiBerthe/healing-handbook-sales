@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Sprout, Shield } from "lucide-react";
+import { Link } from "react-router-dom";
 export default function Bonuses() {
   return <section className="py-16 bg-healing-light/20">
       <div className="container mx-auto px-4 lg:px-8">
@@ -57,9 +58,11 @@ yours today for just $37.</strong>
           </p>
           
           <div className="space-y-4">
-            <Button size="lg" className="text-lg px-12 py-4 bg-sky-400 hover:bg-sky-500 text-white">
-              YES, GET 80% OFF
-            </Button>
+            <Link to="/">
+              <Button size="lg" className="text-lg px-12 py-4 bg-sky-400 hover:bg-sky-500 text-white">
+                YES, GET 80% OFF
+              </Button>
+            </Link>
             <p className="text-lg text-muted-foreground">
               <span className="text-healing-green font-medium">✓</span> Order now for guaranteed discounts and free gifts
             </p>
