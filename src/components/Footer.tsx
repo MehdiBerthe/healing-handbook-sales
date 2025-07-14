@@ -1,5 +1,5 @@
 export default function Footer() {
-  return <footer className="bg-background border-t py-12 pb-24 md:pb-12">
+  return <footer className="bg-background border-t py-12 pb-32 md:pb-32">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8">
           {/* Logo and Company Info */}
