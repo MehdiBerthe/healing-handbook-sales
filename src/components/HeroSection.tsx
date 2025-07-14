@@ -14,11 +14,7 @@ export function HeroSection() {
               <div className="absolute -top-3 -left-3 md:-top-4 md:-left-4 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-10">
                 BESTSELLER
               </div>
-              <img 
-                src="/lovable-uploads/f6a0ebdb-e430-4387-89b4-669975cd0fa2.png" 
-                alt="The Natural Medicine Book" 
-                className="w-full h-auto rounded-lg shadow-natural"
-              />
+              <img src="/lovable-uploads/f6a0ebdb-e430-4387-89b4-669975cd0fa2.png" alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" />
             </div>
           </div>
 
@@ -26,9 +22,7 @@ export function HeroSection() {
           <div className="text-center mb-6">
             <Badge variant="secondary" className="bg-forest-green/10 text-forest-green border-forest-green/20 text-sm">
               <div className="flex items-center gap-1 mr-2">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-3 h-3 fill-forest-green text-forest-green" />
-                ))}
+                {[...Array(5)].map((_, i) => <Star key={i} className="w-3 h-3 fill-forest-green text-forest-green" />)}
               </div>
               Trusted by 50,000+ Happy Customers
             </Badge>
@@ -39,9 +33,7 @@ export function HeroSection() {
         <div className="hidden lg:block text-center mb-4 lg:mb-6">
           <Badge variant="secondary" className="bg-forest-green/10 text-forest-green border-forest-green/20 text-sm">
             <div className="flex items-center gap-1 mr-2">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-3 h-3 fill-forest-green text-forest-green" />
-              ))}
+              {[...Array(5)].map((_, i) => <Star key={i} className="w-3 h-3 fill-forest-green text-forest-green" />)}
             </div>
             Trusted by 50,000+ Happy Customers
           </Badge>
@@ -55,11 +47,7 @@ export function HeroSection() {
               <div className="absolute -top-3 -left-3 md:-top-4 md:-left-4 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-10">
                 BESTSELLER
               </div>
-              <img 
-                src="/lovable-uploads/f6a0ebdb-e430-4387-89b4-669975cd0fa2.png" 
-                alt="The Natural Medicine Book" 
-                className="w-full h-auto rounded-lg shadow-natural"
-              />
+              <img src="/lovable-uploads/f6a0ebdb-e430-4387-89b4-669975cd0fa2.png" alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" />
             </div>
           </div>
 
@@ -94,11 +82,7 @@ export function HeroSection() {
               </div>
             </div>
 
-            <div className="bg-forest-green/10 p-3 md:p-4 rounded-lg mb-4 md:mb-6 border border-forest-green/20">
-              <p className="text-forest-green font-bold text-sm md:text-base lg:text-lg">
-                LIMITED TIME: Get the Full Book for Just $37 (Reg. $149) + 2 FREE BONUSES
-              </p>
-            </div>
+            
 
             <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto animate-pulse">
               YES, I WANT MY BOOK NOW!
