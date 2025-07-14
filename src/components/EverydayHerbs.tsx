@@ -1,5 +1,4 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight } from "lucide-react";
 import herbsImage from "@/assets/herbs-ingredients.jpg";
 
 export function EverydayHerbs() {
@@ -53,14 +52,11 @@ export function EverydayHerbs() {
             {herbSecrets.map((secret, index) => (
               <Card key={index} className="border-natural-gold-light hover:border-natural-gold hover:shadow-warm transition-all duration-300 group cursor-pointer">
                 <CardContent className="p-4 md:p-6">
-                  <div className="flex items-center justify-between">
-                    <div className="flex-1 pr-3">
-                      <h3 className="font-bold text-base md:text-lg text-natural-green mb-1 md:mb-2 group-hover:text-natural-gold transition-colors">
-                        {secret.title}
-                      </h3>
-                      <p className="text-sm md:text-base text-muted-foreground">{secret.description}</p>
-                    </div>
-                    <ArrowRight className="w-5 h-5 md:w-6 md:h-6 text-natural-gold group-hover:translate-x-2 transition-transform duration-300 flex-shrink-0" />
+                  <div>
+                    <h3 className="font-bold text-base md:text-lg text-natural-green mb-1 md:mb-2 group-hover:text-natural-gold transition-colors">
+                      {secret.title}
+                    </h3>
+                    <p className="text-sm md:text-base text-muted-foreground">{secret.description}</p>
                   </div>
                 </CardContent>
               </Card>
