@@ -28,13 +28,13 @@ const benefits = [{
 }, {
   id: 3,
   icon: Shield,
-  image: "/lovable-uploads/12abc5cd-9701-4f27-82ce-0a8bc724842f.png",
+  image: "/lovable-uploads/752d227b-20e8-444c-aff0-a0947682b128.png",
   title: "No More Waiting Rooms. Your Healing Starts in the Kitchen",
   description: "Modern healthcare can leave you feeling like just another number, but healing doesn't have to be so distant or disempowering. This book gives you immediate, tangible tools to support your body naturally.\n\nNo waiting for appointments, no endless refills. Just knowledge you can use today, from making a calming tea to building a healing routine. Reclaim your role as your own best healer, starting right now."
 }, {
   id: 4,
   icon: BookOpen,
-  image: "/lovable-uploads/85d866dd-cbdd-40e0-98ee-43ec3615fe64.png",
+  image: "/lovable-uploads/6d244b6f-f1fe-40ce-aef8-f6c5e8f6bbd2.png",
   title: "The Remedies That Helped 10,000 People. Now In Your Hands",
   description: "Clara Wells didn't learn herbal healing from a textbook, she spent decades helping real people solve real health challenges, from stubborn skin conditions to hormone imbalances.\n\nAfter guiding over 10,000 clients, she's distilled her most effective remedies and insights into this one-of-a-kind book. You're not just getting recipes, you're getting decades of lived experience, simplified and delivered with care."
 }, {
@@ -46,13 +46,13 @@ const benefits = [{
 }, {
   id: 6,
   icon: Utensils,
-  image: "/lovable-uploads/14fe8aee-f999-406c-8363-33df677b8cd9.png",
+  image: "/lovable-uploads/bfb27599-8f58-4884-a4b4-4036c06d4326.png",
   title: "Your Spice Rack Might Be the Best Pharmacy You've Never Used",
   description: "Open your cabinet, you might already own some of the world's most powerful healing tools. Garlic, turmeric, lemon, ginger, common staples with extraordinary potential when used correctly.\n\nThis book shows you exactly how to activate their healing compounds, pair them for maximum impact, and transform your everyday meals into medicine. It's not about adding new ingredients, it's about unlocking the power of the ones you already have."
 }, {
   id: 7,
   icon: Eye,
-  image: "/lovable-uploads/367561af-2635-4dfb-b67c-083399522675.png",
+  image: "/lovable-uploads/1b08614a-ee3d-4ae8-a106-f675c28935f9.png",
   title: "The Little-Known Prep Tricks That Turn Herbs Into Medicine",
   description: "It's not just what you use, it's how you use it. Boil the wrong herb and you destroy its potency. Mix two others and they become a natural antibiotic.\n\nThis book reveals the preparation techniques that make all the difference, inspired by centuries of traditional wisdom and adapted for modern kitchens. With simple instructions and beautiful illustrations, you'll feel like a true herbalist in no time."
 }, {
