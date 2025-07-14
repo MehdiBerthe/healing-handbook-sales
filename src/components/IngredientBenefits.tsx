@@ -21,7 +21,7 @@ const ingredients = [
   {
     name: "Ginger",
     description: "Warms digestion, calms nausea, and eases inflammation.",
-    emoji: "🫚",
+    emoji: "/lovable-uploads/2d877688-a234-46f9-8082-cad390309bc0.png",
   },
   {
     name: "Lemon",
@@ -54,7 +54,11 @@ export function IngredientBenefits() {
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
                   <div className="p-2 bg-white rounded-full shadow-lg w-16 h-16 flex items-center justify-center">
-                    <span className="text-2xl">{ingredient.emoji}</span>
+                    {ingredient.emoji.startsWith('/') ? (
+                      <img src={ingredient.emoji} alt={ingredient.name} className="w-8 h-8" />
+                    ) : (
+                      <span className="text-2xl">{ingredient.emoji}</span>
+                    )}
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-healing-dark mb-2">{ingredient.name}</h3>
