@@ -14,12 +14,10 @@ import { GuaranteeSection } from "@/components/GuaranteeSection";
 import { FAQSection } from "@/components/FAQSection";
 import { FinalCTASection } from "@/components/FinalCTASection";
 import { FinalCTA } from "@/components/FinalCTA";
-import Navigation from "@/components/Navigation";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
       <TopBanner />
       <HeroSection />
       <TrustIcons />
