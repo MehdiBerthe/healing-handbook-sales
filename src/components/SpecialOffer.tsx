@@ -6,19 +6,14 @@ export default function SpecialOffer() {
             <div className="space-y-6">
               <div className="flex justify-center mb-6">
                 <div className="w-64 h-64 rounded-lg shadow-natural overflow-hidden">
-                  <img 
-                    src="/lovable-uploads/2d369053-3da0-4c6e-92ce-17910c1a938c.png" 
-                    alt="The Natural Medicine Book - Traditional Remedies for Modern Times"
-                    className="w-full h-full object-cover rounded-lg shadow-natural"
-                  />
+                  <img src="/lovable-uploads/2d369053-3da0-4c6e-92ce-17910c1a938c.png" alt="The Natural Medicine Book - Traditional Remedies for Modern Times" className="w-full h-full object-cover rounded-lg shadow-natural" />
                 </div>
               </div>
               
               
               <div className="bg-healing-light/30 p-6 rounded-lg border-l-4 border-healing-green">
-                <p className="text-xl lg:text-2xl font-semibold text-earth-brown mb-2">
-                  (Valued at $149 - now only $37 before they try to ban this book again!)
-                </p>
+                <p className="text-xl lg:text-2xl font-semibold text-earth-brown mb-2">Valued at $149 - now only $37
+ Get your copy before they try to ban this book again!</p>
               </div>
               
               <div className="text-2xl lg:text-3xl font-bold text-healing-green mb-6">

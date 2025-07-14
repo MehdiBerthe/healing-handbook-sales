@@ -41,11 +41,7 @@ Like many health-conscious people over 40, I was tired of the endless prescripti
                 </div>
               </div>
               
-              <div className="pt-4 border-t border-healing-light">
-                
-                
-                
-              </div>
+              
             </div>
           </div>
         </Card>

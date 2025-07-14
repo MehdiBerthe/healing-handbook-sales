@@ -1,6 +1,5 @@
 export default function Footer() {
-  return (
-    <footer className="bg-background border-t py-12 pb-24 md:pb-12">
+  return <footer className="bg-background border-t py-12 pb-24 md:pb-12">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8">
           {/* Logo and Company Info */}
@@ -17,14 +16,7 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">Quick Links</h3>
-            <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#benefits" className="hover:text-primary transition-colors">Benefits</a></li>
-              <li><a href="#testimonials" className="hover:text-primary transition-colors">Testimonials</a></li>
-              <li><a href="#guarantee" className="hover:text-primary transition-colors">Guarantee</a></li>
-            </ul>
-          </div>
+          
 
           {/* Contact */}
           <div className="space-y-4">
@@ -37,6 +29,5 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 }
