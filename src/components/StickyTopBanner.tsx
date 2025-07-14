@@ -2,7 +2,7 @@ import { Gift } from "lucide-react";
 
 export default function StickyTopBanner() {
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-700 to-blue-800 text-white py-3 shadow-lg">
+    <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-700 to-blue-800 text-white py-3 shadow-lg border-t-[5px] border-b-[5px] border-yellow-400">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-center text-center">
           <div className="flex items-center space-x-2">
