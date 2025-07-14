@@ -31,7 +31,7 @@ export default function StickyBottomButton() {
           
           <div className="flex items-center justify-center text-sm text-muted-foreground">
             <Check className="h-4 w-4 text-healing-green mr-2" />
-            <span>Order Now for Guaranteed Discounts and Free Gifts</span>
+            <span className="text-center">Order Now for Guaranteed Discounts and Free Gifts</span>
           </div>
         </div>
       </div>
