@@ -8,10 +8,12 @@ import Comments from "./Comments";
 import Guarantee from "./Guarantee";
 import Footer from "./Footer";
 import StickyBottomButton from "./StickyBottomButton";
+import StickyTopBanner from "./StickyTopBanner";
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen pb-24">
+    <div className="min-h-screen pt-16">
+      <StickyTopBanner />
       <Hero />
       <Testimonial />
       <BenefitsList />

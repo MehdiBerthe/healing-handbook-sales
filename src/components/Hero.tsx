@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-healing-green/5 to-natural-gold/5 py-16 lg:py-24">
+    <section className="relative bg-gradient-to-br from-healing-green/5 to-natural-gold/5 py-16 lg:py-24 mt-4">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Logo */}
         <div className="flex justify-center mb-12">
