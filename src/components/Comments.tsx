@@ -153,7 +153,6 @@ export default function Comments() {
         <div className="bg-card rounded-lg p-4 mb-6 border shadow-sm">
           <div className="flex space-x-3">
             <Avatar className="w-10 h-10 flex-shrink-0">
-              <AvatarImage src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face" alt="Your avatar" />
               <AvatarFallback className="bg-primary/10 text-primary font-semibold">
                 Y
               </AvatarFallback>
