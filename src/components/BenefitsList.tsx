@@ -23,7 +23,7 @@ const benefits = [{
   id: 2,
   icon: Stethoscope,
   image: "/lovable-uploads/dc53d2eb-045a-405b-83ee-57b5cf82497d.png",
-  title: "Got Joint Pain or Insomnia? Flip to the Right Page and Fix It",
+  title: "The Overlooked Healing Secret That's Hiding in Plain Sight",
   description: "You shouldn't have to be an herbalist or chemist to feel better. Whether you're dealing with stubborn joint pain, frustrating insomnia, or chronic stress, every remedy in this guide is organized by everyday ailment and crafted with accessibility in mind.\n\nNo complex instructions or hard-to-find ingredients, just step-by-step guidance using familiar items from your kitchen or local market. It's real relief, made practical."
 }, {
   id: 3,
