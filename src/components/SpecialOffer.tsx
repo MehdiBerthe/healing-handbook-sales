@@ -5,7 +5,7 @@ export default function SpecialOffer() {
           <div className="bg-white/90 backdrop-blur-sm p-8 lg:p-12 rounded-2xl shadow-natural border border-healing-light">
             <div className="space-y-6">
               <div className="flex justify-center mb-6">
-                <div className="w-64 h-80 rounded-lg shadow-natural overflow-hidden">
+                <div className="w-64 h-64 rounded-lg shadow-natural overflow-hidden">
                   <img 
                     src="/lovable-uploads/2d369053-3da0-4c6e-92ce-17910c1a938c.png" 
                     alt="The Natural Medicine Book - Traditional Remedies for Modern Times"
