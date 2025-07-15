@@ -24,9 +24,9 @@ export default function Navigation() {
                 Original Landing
               </Button>
             </Link>
-            <Link to="/natural-healing">
+            <Link to="/offer">
               <Button 
-                variant={location.pathname === "/natural-healing" ? "default" : "outline"}
+                variant={location.pathname === "/offer" ? "default" : "outline"}
                 size="sm"
               >
                 Natural Healing
