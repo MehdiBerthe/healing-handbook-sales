@@ -108,6 +108,21 @@ export function OfferStack() {
               <div className="text-center">
                 <p className="text-gray-900 font-bold">Secure Payment</p>
                 <SecurityBadges />
+                {/* Payment Icons */}
+                <div className="flex justify-center items-center gap-1 sm:gap-2 opacity-80 flex-wrap">
+                  <div className="text-lg sm:text-xl font-bold text-blue-800">PayPal</div>
+                  <div className="text-lg sm:text-xl font-bold text-blue-600">VISA</div>
+                  <div className="flex">
+                    <div className="w-5 h-5 sm:w-6 sm:h-6 bg-red-500 rounded-full mr-1"></div>
+                    <div className="w-5 h-5 sm:w-6 sm:h-6 bg-yellow-400 rounded-full"></div>
+                  </div>
+                  <div className="text-xs sm:text-sm font-bold text-blue-700 bg-blue-100 px-1 sm:px-2 py-1 rounded text-center">
+                    AMERICAN<br />EXPRESS
+                  </div>
+                  <div className="text-xs sm:text-sm font-bold text-orange-600 bg-gray-800 text-white px-1 sm:px-2 py-1 rounded">
+                    DISCOVER
+                  </div>
+                </div>
               </div>
             </CardContent>
           </Card>
