@@ -1,4 +1,4 @@
-import { Shield, Truck, BookOpen } from "lucide-react";
+import { Shield, Download, BookOpen } from "lucide-react";
 
 export function TrustIcons() {
   const trustItems = [
@@ -8,9 +8,9 @@ export function TrustIcons() {
       description: "Full money back guarantee"
     },
     {
-      icon: Truck,
-      title: "Fast 3–5 Day Shipping",
-      description: "Printed in the USA"
+      icon: Download,
+      title: "Instant Digital Access",
+      description: "Download immediately"
     },
     {
       icon: BookOpen,
