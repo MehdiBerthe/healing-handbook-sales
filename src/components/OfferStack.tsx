@@ -36,11 +36,7 @@ export function OfferStack() {
             <CardContent className="p-6 md:p-8">
               {/* Product Image */}
               <div className="flex justify-center mb-6">
-                <img 
-                  src="/lovable-uploads/440a78a5-11f3-4291-8140-e771d5085fa3.png" 
-                  alt="Natural Medicine Book Package with Digital Bonuses" 
-                  className="w-full max-w-lg h-auto"
-                />
+                <img src="/lovable-uploads/440a78a5-11f3-4291-8140-e771d5085fa3.png" alt="Natural Medicine Book Package with Digital Bonuses" className="w-full max-w-lg h-auto" />
               </div>
 
               {/* Title */}
@@ -48,9 +44,7 @@ export function OfferStack() {
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
                   Natural Medicine Book
                 </h3>
-                <p className="text-gray-600 text-lg">
-                  The Complete Guide to Safe, Natural Blood Sugar Support—Backed by Tradition and Science
-                </p>
+                <p className="text-gray-600 text-lg">The Complete Guide to Safe, Natural Health —Backed by Tradition and Science</p>
               </div>
 
               {/* Your Order Includes */}
@@ -75,10 +69,7 @@ export function OfferStack() {
                     <Check className="w-6 h-6 text-forest-green mt-1 flex-shrink-0" />
                     <span className="text-gray-900 font-medium">60-Day 100% Money-Back Guarantee – no questions asked</span>
                   </div>
-                  <div className="flex items-start gap-3">
-                    <Check className="w-6 h-6 text-forest-green mt-1 flex-shrink-0" />
-                    <span className="text-gray-900 font-medium">FREE Shipping when you order 2 or more copies</span>
-                  </div>
+                  
                   <div className="flex items-start gap-3">
                     <Check className="w-6 h-6 text-forest-green mt-1 flex-shrink-0" />
                     <span className="text-gray-900 font-medium">Safe & Secure Checkout – We accept Paypal, Visa, Mastercard, Amex & Discover</span>
@@ -92,9 +83,7 @@ export function OfferStack() {
                   <span className="text-4xl md:text-5xl font-bold text-gray-900">only $37</span>
                   <span className="text-lg text-gray-500 line-through ml-2">(Regular Price $149)</span>
                 </div>
-                <p className="text-forest-green font-medium text-lg">
-                  (Plus $9.99 shipping for your book delivery via first class delivery.)
-                </p>
+                
               </div>
 
               {/* CTA Button */}
