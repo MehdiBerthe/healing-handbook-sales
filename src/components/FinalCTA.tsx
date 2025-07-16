@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Clock, Shield } from "lucide-react";
-
 export function FinalCTA() {
-  return (
-    <section className="py-8 md:py-12 lg:py-16 px-4 bg-gradient-natural text-white">
+  return <section className="py-8 md:py-12 lg:py-16 px-4 bg-gradient-natural text-white">
       <div className="container mx-auto max-w-4xl text-center">
         <h2 className="text-xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6">
           You Deserve to Feel Better
@@ -36,18 +34,14 @@ export function FinalCTA() {
               </div>
             </div>
 
-            <Button 
-              variant="ctaSecondary" 
-              size="lg" 
-              className="text-base sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-8 md:px-12 lg:px-16 py-3 sm:py-4 md:py-6 lg:py-8 w-full sm:w-auto animate-pulse shadow-2xl"
-            >
+            <Button variant="ctaSecondary" size="lg" className="text-base sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-8 md:px-12 lg:px-16 py-3 sm:py-4 md:py-6 lg:py-8 w-full sm:w-auto animate-pulse shadow-2xl">
               <span className="sm:hidden">GET MY BOOK NOW!</span>
               <span className="hidden sm:inline">YES, I WANT MY BOOK NOW!</span>
             </Button>
 
             <div className="mt-4 md:mt-6 text-xs md:text-sm opacity-90">
               <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center gap-1 sm:gap-2">
-                <span>🚚 Free shipping</span>
+                
                 <span className="hidden sm:inline">•</span>
                 <span>💰 60-day guarantee</span>
                 <span className="hidden sm:inline">•</span>
@@ -66,6 +60,5 @@ export function FinalCTA() {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 }
