@@ -14,7 +14,7 @@ export function HeroSection() {
               <div className="absolute -top-3 -left-3 md:-top-4 md:-left-4 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-10">
                 BESTSELLER
               </div>
-              <img src="/lovable-uploads/acd5ef6d-4c00-4a73-898c-08ae36a8a24b.png" alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" />
+              <img src="/lovable-uploads/0a44e57d-128b-4bb6-861f-ab5297fff545.png" alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" />
             </div>
           </div>
 
@@ -47,7 +47,7 @@ export function HeroSection() {
               <div className="absolute -top-3 -left-3 md:-top-4 md:-left-4 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-10">
                 BESTSELLER
               </div>
-              <img src="/lovable-uploads/acd5ef6d-4c00-4a73-898c-08ae36a8a24b.png" alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" />
+              <img src="/lovable-uploads/0a44e57d-128b-4bb6-861f-ab5297fff545.png" alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" />
             </div>
           </div>
 
