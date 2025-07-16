@@ -18,7 +18,7 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        cta: "bg-gradient-natural text-white font-bold shadow-warm hover:shadow-natural transform hover:scale-105 transition-all duration-300 border-0",
+        cta: "bg-gradient-natural text-white font-bold shadow-warm hover:shadow-natural transition-all duration-300 border-0",
         ctaSecondary: "bg-natural-gold text-white font-semibold hover:bg-natural-gold/90 shadow-warm",
         forest: "bg-forest-green text-white font-bold hover:bg-forest-green/90 shadow-natural",
         success: "bg-success text-success-foreground hover:bg-success/90",
