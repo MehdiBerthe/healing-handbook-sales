@@ -26,7 +26,7 @@ export default function SpecialOffer() {
                 </p>
                 
                 <p className="font-semibold text-earth-brown">
-                  Right now, Carla is offering <span className="text-healing-green">The Natural Medicine Book</span> for just <span className="text-2xl text-natural-gold font-bold">$37</span> — that's <span className="text-xl font-bold text-healing-green">$112 off</span> the regular retail price of $149.
+                  Right now, Clara is offering <span className="text-healing-green">The Natural Medicine Book</span> for just <span className="text-2xl text-natural-gold font-bold">$37</span> — that's <span className="text-xl font-bold text-healing-green">$112 off</span> the regular retail price of $149.
                 </p>
               </div>
             </div>
