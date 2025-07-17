@@ -5,14 +5,6 @@ import { Eye, Heart, Shield, Zap, Brain, Utensils, BookOpen, Sprout, Stethoscope
 // Import benefit images
 import benefit1Herbs from "@/assets/benefit-1-herbs.jpg";
 import benefit2Relief from "@/assets/benefit-2-relief.jpg";
-import benefit3Control from "@/assets/benefit-3-control.jpg";
-import benefit4Wisdom from "@/assets/benefit-4-wisdom.jpg";
-import benefit5Knowledge from "@/assets/benefit-5-knowledge.jpg";
-import benefit6Kitchen from "@/assets/benefit-6-kitchen.jpg";
-import benefit7Preparation from "@/assets/benefit-7-preparation.jpg";
-import benefit8Garden from "@/assets/benefit-8-garden.jpg";
-import benefit9Emergency from "@/assets/benefit-9-emergency.jpg";
-import benefit10Renewed from "@/assets/benefit-10-renewed.jpg";
 const benefits = [{
   id: 1,
   icon: Sparkles,
@@ -28,49 +20,49 @@ const benefits = [{
 }, {
   id: 3,
   icon: Shield,
-  image: benefit3Control,
+  image: "/lovable-uploads/07114655-a40c-4d7e-adb0-cad810f8f713.png",
   title: "No More Waiting Rooms. Your Healing Starts in the Kitchen",
   description: "Modern healthcare can leave you feeling like just another number, but healing doesn't have to be so distant or disempowering. This book gives you immediate, tangible tools to support your body naturally.\n\nNo waiting for appointments, no endless refills. Just knowledge you can use today, from making a calming tea to building a healing routine. Reclaim your role as your own best healer, starting right now."
 }, {
   id: 4,
   icon: BookOpen,
-  image: benefit4Wisdom,
+  image: "/lovable-uploads/7c9683f6-e153-4461-aed4-df9ee6708364.png",
   title: "The Remedies That Helped 10,000 People. Now In Your Hands",
   description: "Clara Wells didn't learn herbal healing from a textbook, she spent decades helping real people solve real health challenges, from stubborn skin conditions to hormone imbalances.\n\nAfter guiding over 10,000 clients, she's distilled her most effective remedies and insights into this one-of-a-kind book. You're not just getting recipes, you're getting decades of lived experience, simplified and delivered with care."
 }, {
   id: 5,
   icon: Brain,
-  image: benefit5Knowledge,
+  image: "/lovable-uploads/c93e4212-851d-440c-a06c-4e4ed4e55783.png",
   title: "You are Guided Now : Know Exactly What Works and Why",
   description: "It's exhausting trying to piece together health advice from a hundred sources. This guide cuts through the noise. Instead of vague suggestions or trendy fads, you'll get clear explanations for each remedy: what it does, why it works, and how to use it.\n\nWhether you're a complete beginner or someone already using herbs, this book brings the science, tradition, and application together, so you can feel confident with every recipe."
 }, {
   id: 6,
   icon: Utensils,
-  image: benefit6Kitchen,
+  image: "/lovable-uploads/8c3ed461-92a2-4186-8e34-c8f46e9a0867.png",
   title: "Your Spice Rack Might Be the Best Pharmacy You've Never Used",
   description: "Open your cabinet, you might already own some of the world's most powerful healing tools. Garlic, turmeric, lemon, ginger, common staples with extraordinary potential when used correctly.\n\nThis book shows you exactly how to activate their healing compounds, pair them for maximum impact, and transform your everyday meals into medicine. It's not about adding new ingredients, it's about unlocking the power of the ones you already have."
 }, {
   id: 7,
   icon: Eye,
-  image: benefit7Preparation,
+  image: "/lovable-uploads/d4988bda-e3e9-485b-8dc7-ac0d49140335.png",
   title: "The Little-Known Prep Tricks That Turn Herbs Into Medicine",
   description: "It's not just what you use, it's how you use it. Boil the wrong herb and you destroy its potency. Mix two others and they become a natural antibiotic.\n\nThis book reveals the preparation techniques that make all the difference, inspired by centuries of traditional wisdom and adapted for modern kitchens. With simple instructions and beautiful illustrations, you'll feel like a true herbalist in no time."
 }, {
   id: 8,
   icon: Sprout,
-  image: benefit8Garden,
+  image: "/lovable-uploads/cadcd23f-bd1f-4819-912b-bc33875786cc.png",
   title: "Even If You Only Have a Balcony, You Can Grow This",
   description: "🌿 BONUS: You don't need acres of land or a green thumb to grow your own medicine. This bonus Mini Garden Guide shows you how to cultivate seven essential healing herbs  even if you only have a windowsill or balcony.\n\nFrom calming lavender to immune-boosting oregano, you'll always have fresh remedies within arm's reach grown with your own hands."
 }, {
   id: 9,
   icon: Zap,
-  image: benefit9Emergency,
+  image: "/lovable-uploads/0d36ddb7-fe81-429d-afdc-83aa824bcb20.png",
   title: "What to Reach For When Life Throws You a Curveball",
   description: "⚕️ BONUS: When a cold strikes or a burn catches you off guard, it helps to have something on hand fast. That's why we've included the Herbal Emergency Kit, filled with quick, reliable solutions for life's most common mishaps.\n\nLearn what to keep in your herbal first-aid kit and how to use it to calm inflammation, support recovery, and feel in control even in the unexpected."
 }, {
   id: 10,
   icon: Heart,
-  image: benefit10Renewed,
+  image: "/lovable-uploads/f987d391-33cc-416a-86a9-954d9fc8356e.png",
   title: "What Happens When Your Body Finally Feels \"Right\" Again",
   description: "When pain and fatigue pile up, it's easy to feel like you're losing touch with who you are. But healing isn't just physical, it's emotional, energetic, and deeply personal.\n\nAs your body begins to regulate and rebalance, you'll feel a renewed sense of clarity, vitality, and calm. You'll sleep better, think sharper, and move through your day with more lightness. This book isn't just about feeling better, it's about feeling like you again."
 }];
