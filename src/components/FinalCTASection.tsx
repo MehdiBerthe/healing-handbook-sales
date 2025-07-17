@@ -28,7 +28,7 @@ export function FinalCTASection() {
             Join thousands of readers who are using nature's remedies to feel better, think clearer, and live with more energy.
           </p>
           
-          <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto animate-pulse mb-8 max-w-md mx-auto">
+          <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto mb-8 max-w-md mx-auto">
             GET YOUR COPY NOW
           </Button>
           

@@ -71,7 +71,7 @@ export function IngredientBenefits() {
         </div>
 
         <div className="text-center">
-          <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto animate-pulse">
+          <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
             REVEAL MY OFFER
           </Button>
         </div>

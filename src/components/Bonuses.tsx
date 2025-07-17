@@ -59,7 +59,7 @@ yours today for just $37.</strong>
           
           <div className="space-y-4">
             <Link to="/">
-              <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto animate-pulse">
+              <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
                 YES, GET 80% OFF
               </Button>
             </Link>

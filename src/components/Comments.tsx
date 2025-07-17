@@ -138,7 +138,7 @@ export default function Comments() {
             <div className="flex-1">
               <div className="relative">
                 <Input value={newComment} onChange={e => setNewComment(e.target.value)} onKeyPress={handleKeyPress} placeholder="Write a comment..." className="w-full bg-muted border-0 rounded-full py-2 px-4 text-sm placeholder:text-muted-foreground focus-visible:ring-1 focus-visible:ring-primary/20" />
-                {newComment.trim() && <Button size="sm" onClick={handleAddComment} className="absolute right-1 top-1/2 -translate-y-1/2 h-7 w-7 p-0 rounded-full bg-primary hover:bg-primary/90">
+                {newComment.trim() && <Button size="sm" onClick={handleAddComment} className="absolute right-1 top-1/2 -translate-y-1/2 h-7 w-7 p-0 rounded-full bg-primary">
                     <Send className="w-3 h-3" />
                   </Button>}
               </div>
@@ -166,14 +166,14 @@ export default function Comments() {
                   </div>
                   
                   <div className="flex items-center space-x-4 mt-1 ml-3">
-                    <button onClick={() => handleLike(comment.id)} className={`text-xs font-medium ${comment.isLiked ? 'text-primary' : 'text-muted-foreground hover:text-foreground'} transition-colors`}>
+                    <button onClick={() => handleLike(comment.id)} className={`text-xs font-medium ${comment.isLiked ? 'text-primary' : 'text-muted-foreground'}`}>
                       Like
                     </button>
-                    <button className="text-xs font-medium text-muted-foreground hover:text-foreground transition-colors">
+                    <button className="text-xs font-medium text-muted-foreground">
                       Reply
                     </button>
                     <span className="text-xs text-muted-foreground">{comment.timeAgo}</span>
-                    <button className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+                    <button className="text-xs text-muted-foreground">
                       <MoreHorizontal className="w-3 h-3" />
                     </button>
                   </div>

@@ -84,7 +84,7 @@ export function HeroSection() {
 
             
 
-            <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto animate-pulse">
+            <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
               YES, I WANT MY BOOK NOW!
             </Button>
             
