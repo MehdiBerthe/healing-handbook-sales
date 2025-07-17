@@ -20,9 +20,7 @@ Like many health-conscious people over 40, I was tired of the endless prescripti
                   <img alt="The Natural Medicine Book" className="w-64 h-auto rounded-lg shadow-lg" src="/lovable-uploads/e759cafe-ed71-466c-92f3-615aacbaa819.png" />
                 </div>
                 
-                <p className="text-xl italic text-earth-brown leading-relaxed">
-                  "I wasn't sick, but I wasn't herself."
-                </p>
+                <p className="text-xl italic text-earth-brown leading-relaxed">"I wasn't sick, but I wasn't myself."</p>
                 
                 <p className="text-muted-foreground leading-relaxed text-lg">
                   That's the feeling that made me look beyond the pharmacy.

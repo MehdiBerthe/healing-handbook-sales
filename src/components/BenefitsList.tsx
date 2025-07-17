@@ -71,9 +71,7 @@ export default function BenefitsList() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-earth-brown mb-3 md:mb-4">Welcome to Herbal Synergy — The Ancient Art Modern Medicine Forgot</h2>
-          <p className="text-base md:text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Keep scrolling to discover 10 ways this book is helping thousands reduce inflammation, sharpen focus, improve sleep, and feel like themselves again — all using simple kitchen remedies made smarter.
-          </p>
+          <p className="text-base md:text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">Keep scrolling to discover 10 ways this book is helping thousands reduce inflammation, sharpen focus, improve sleep, and feel like themselves again — all using simple kitchen remedies.</p>
         </div>
         
         <div className="space-y-6 md:space-y-8">
