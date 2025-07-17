@@ -44,7 +44,7 @@ const benefits = [{
 }, {
   id: 7,
   icon: Eye,
-  image: "/lovable-uploads/f40b5c1f-804a-4c63-a75b-25175e632b49.png",
+  image: "/lovable-uploads/6a7ce611-caed-497b-ade6-78b6c9bf38c8.png",
   title: "The Little-Known Prep Tricks That Turn Herbs Into Medicine",
   description: "It's not just what you use, it's how you use it. Boil the wrong herb and you destroy its potency. Mix two others and they become a natural antibiotic.\n\nThis book reveals the preparation techniques that make all the difference, inspired by centuries of traditional wisdom and adapted for modern kitchens. With simple instructions and beautiful illustrations, you'll feel like a true herbalist in no time."
 }, {
