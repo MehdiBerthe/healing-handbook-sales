@@ -28,49 +28,49 @@ const benefits = [{
 }, {
   id: 3,
   icon: Shield,
-  image: "/lovable-uploads/60c1ff0d-c7ef-43ee-87d4-0c434207d65b.png",
+  image: benefit3Control,
   title: "No More Waiting Rooms. Your Healing Starts in the Kitchen",
   description: "Modern healthcare can leave you feeling like just another number, but healing doesn't have to be so distant or disempowering. This book gives you immediate, tangible tools to support your body naturally.\n\nNo waiting for appointments, no endless refills. Just knowledge you can use today, from making a calming tea to building a healing routine. Reclaim your role as your own best healer, starting right now."
 }, {
   id: 4,
   icon: BookOpen,
-  image: "/lovable-uploads/6a89f8b9-3474-48df-8d67-46c2e9092330.png",
+  image: benefit4Wisdom,
   title: "The Remedies That Helped 10,000 People. Now In Your Hands",
   description: "Clara Wells didn't learn herbal healing from a textbook, she spent decades helping real people solve real health challenges, from stubborn skin conditions to hormone imbalances.\n\nAfter guiding over 10,000 clients, she's distilled her most effective remedies and insights into this one-of-a-kind book. You're not just getting recipes, you're getting decades of lived experience, simplified and delivered with care."
 }, {
   id: 5,
   icon: Brain,
-  image: "/lovable-uploads/cabb9830-4a67-4b5f-ad06-9660df6b832e.png",
+  image: benefit5Knowledge,
   title: "You are Guided Now : Know Exactly What Works and Why",
   description: "It's exhausting trying to piece together health advice from a hundred sources. This guide cuts through the noise. Instead of vague suggestions or trendy fads, you'll get clear explanations for each remedy: what it does, why it works, and how to use it.\n\nWhether you're a complete beginner or someone already using herbs, this book brings the science, tradition, and application together, so you can feel confident with every recipe."
 }, {
   id: 6,
   icon: Utensils,
-  image: "/lovable-uploads/c0c00da5-b62b-446d-9451-5c90a33080b6.png",
+  image: benefit6Kitchen,
   title: "Your Spice Rack Might Be the Best Pharmacy You've Never Used",
   description: "Open your cabinet, you might already own some of the world's most powerful healing tools. Garlic, turmeric, lemon, ginger, common staples with extraordinary potential when used correctly.\n\nThis book shows you exactly how to activate their healing compounds, pair them for maximum impact, and transform your everyday meals into medicine. It's not about adding new ingredients, it's about unlocking the power of the ones you already have."
 }, {
   id: 7,
   icon: Eye,
-  image: "/lovable-uploads/72c0c9fe-0bcb-434d-8225-73c923ae20f5.png",
+  image: benefit7Preparation,
   title: "The Little-Known Prep Tricks That Turn Herbs Into Medicine",
   description: "It's not just what you use, it's how you use it. Boil the wrong herb and you destroy its potency. Mix two others and they become a natural antibiotic.\n\nThis book reveals the preparation techniques that make all the difference, inspired by centuries of traditional wisdom and adapted for modern kitchens. With simple instructions and beautiful illustrations, you'll feel like a true herbalist in no time."
 }, {
   id: 8,
   icon: Sprout,
-  image: "/lovable-uploads/e7fb818a-900c-4c59-bffe-c76c703ed6f4.png",
+  image: benefit8Garden,
   title: "Even If You Only Have a Balcony, You Can Grow This",
   description: "🌿 BONUS: You don't need acres of land or a green thumb to grow your own medicine. This bonus Mini Garden Guide shows you how to cultivate seven essential healing herbs  even if you only have a windowsill or balcony.\n\nFrom calming lavender to immune-boosting oregano, you'll always have fresh remedies within arm's reach grown with your own hands."
 }, {
   id: 9,
   icon: Zap,
-  image: "/lovable-uploads/be846370-1b37-4818-8b08-9c7f065b7b57.png",
+  image: benefit9Emergency,
   title: "What to Reach For When Life Throws You a Curveball",
   description: "⚕️ BONUS: When a cold strikes or a burn catches you off guard, it helps to have something on hand fast. That's why we've included the Herbal Emergency Kit, filled with quick, reliable solutions for life's most common mishaps.\n\nLearn what to keep in your herbal first-aid kit and how to use it to calm inflammation, support recovery, and feel in control even in the unexpected."
 }, {
   id: 10,
   icon: Heart,
-  image: "/lovable-uploads/e759cafe-ed71-466c-92f3-615aacbaa819.png",
+  image: benefit10Renewed,
   title: "What Happens When Your Body Finally Feels \"Right\" Again",
   description: "When pain and fatigue pile up, it's easy to feel like you're losing touch with who you are. But healing isn't just physical, it's emotional, energetic, and deeply personal.\n\nAs your body begins to regulate and rebalance, you'll feel a renewed sense of clarity, vitality, and calm. You'll sleep better, think sharper, and move through your day with more lightness. This book isn't just about feeling better, it's about feeling like you again."
 }];
