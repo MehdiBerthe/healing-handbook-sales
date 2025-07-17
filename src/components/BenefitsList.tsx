@@ -32,7 +32,7 @@ const benefits = [{
 }, {
   id: 5,
   icon: Brain,
-  image: "/lovable-uploads/c93e4212-851d-440c-a06c-4e4ed4e55783.png",
+  image: "/lovable-uploads/22703a53-2e12-4332-9b69-457aaa334815.png",
   title: "You are Guided Now : Know Exactly What Works and Why",
   description: "It's exhausting trying to piece together health advice from a hundred sources. This guide cuts through the noise. Instead of vague suggestions or trendy fads, you'll get clear explanations for each remedy: what it does, why it works, and how to use it.\n\nWhether you're a complete beginner or someone already using herbs, this book brings the science, tradition, and application together, so you can feel confident with every recipe."
 }, {
