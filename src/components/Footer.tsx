@@ -22,7 +22,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="font-semibold text-foreground">Contact</h3>
             <div className="text-muted-foreground space-y-2">
-              <p>support@naturalhealinghub.com</p>
+              <p>support@naturalmedicinebook.com</p>
               <p>© 2025 Natural Healing Hub</p>
               <p>All rights reserved</p>
             </div>
