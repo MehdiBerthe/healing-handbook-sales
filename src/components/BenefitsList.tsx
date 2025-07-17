@@ -26,7 +26,7 @@ const benefits = [{
 }, {
   id: 4,
   icon: BookOpen,
-  image: "/lovable-uploads/7c9683f6-e153-4461-aed4-df9ee6708364.png",
+  image: "/lovable-uploads/cfe68086-30f0-4132-a45e-8b07870cdd53.png",
   title: "The Remedies That Helped 10,000 People. Now In Your Hands",
   description: "Clara Wells didn't learn herbal healing from a textbook, she spent decades helping real people solve real health challenges, from stubborn skin conditions to hormone imbalances.\n\nAfter guiding over 10,000 clients, she's distilled her most effective remedies and insights into this one-of-a-kind book. You're not just getting recipes, you're getting decades of lived experience, simplified and delivered with care."
 }, {
