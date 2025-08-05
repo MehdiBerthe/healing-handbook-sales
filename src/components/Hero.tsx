@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+
 export default function Hero() {
   return <section className="relative bg-gradient-to-br from-healing-green/5 to-natural-gold/5 pt-8 pb-16 lg:pt-12 lg:pb-24 mt-4">
       <div className="container mx-auto px-4 lg:px-8">
@@ -35,6 +37,11 @@ export default function Hero() {
           </div>
           
           {/* CTA Button */}
+          <Link to="/">
+            <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
+              GET MY COPY NOW
+            </Button>
+          </Link>
           
         </div>
       </div>
