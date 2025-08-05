@@ -84,9 +84,11 @@ export function HeroSection() {
 
             
 
-            <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
-              YES, I WANT MY BOOK NOW!
-            </Button>
+            <a href="https://www.securepay.zone/natural-medicine">
+              <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
+                YES, I WANT MY BOOK NOW!
+              </Button>
+            </a>
             
             <SecurityBadges />
           </div>

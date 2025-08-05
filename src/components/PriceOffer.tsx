@@ -30,11 +30,11 @@ export default function PriceOffer() {
             
             {/* Additional CTA Button */}
             <div className="mb-6">
-              <Link to="/">
+              <a href="https://www.securepay.zone/natural-medicine">
                 <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto max-w-md">
                   Yes, Get 80% OFF
                 </Button>
-              </Link>
+              </a>
             </div>
           </div>
           

@@ -34,10 +34,12 @@ export function FinalCTA() {
               </div>
             </div>
 
-            <Button variant="ctaSecondary" size="lg" className="text-base sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-8 md:px-12 lg:px-16 py-3 sm:py-4 md:py-6 lg:py-8 w-full sm:w-auto">
-              <span className="sm:hidden">GET MY BOOK NOW!</span>
-              <span className="hidden sm:inline">YES, I WANT MY BOOK NOW!</span>
-            </Button>
+            <a href="https://www.securepay.zone/natural-medicine">
+              <Button variant="ctaSecondary" size="lg" className="text-base sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-8 md:px-12 lg:px-16 py-3 sm:py-4 md:py-6 lg:py-8 w-full sm:w-auto">
+                <span className="sm:hidden">GET MY BOOK NOW!</span>
+                <span className="hidden sm:inline">YES, I WANT MY BOOK NOW!</span>
+              </Button>
+            </a>
 
             <div className="mt-4 md:mt-6 text-xs md:text-sm opacity-90">
               <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center gap-1 sm:gap-2">

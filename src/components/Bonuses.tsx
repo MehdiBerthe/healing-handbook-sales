@@ -58,11 +58,11 @@ yours today for just $34.99.</strong>
           </p>
           
           <div className="space-y-4">
-            <Link to="/">
+            <a href="https://www.securepay.zone/natural-medicine">
               <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
                 YES, GET 80% OFF
               </Button>
-            </Link>
+            </a>
             <p className="text-lg text-muted-foreground">
               <span className="text-healing-green font-medium">✓</span> Order now for guaranteed discounts and free gifts
             </p>

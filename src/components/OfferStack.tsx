@@ -88,9 +88,11 @@ export function OfferStack() {
 
               {/* CTA Button */}
               <div className="text-center mb-6">
-                <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
-                  SEND ME MY COPY NOW!
-                </Button>
+                <a href="https://www.securepay.zone/natural-medicine">
+                  <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
+                    SEND ME MY COPY NOW!
+                  </Button>
+                </a>
               </div>
 
               {/* Security Text */}
