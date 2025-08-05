@@ -53,7 +53,7 @@ export function FinalCTA() {
 
         <div className="bg-white/5 rounded-lg p-3 md:p-4 lg:p-6 text-center">
           <p className="text-sm md:text-base lg:text-lg font-semibold mb-1 md:mb-2">
-            ⏰ Limited Time: Get all 3 items for just $37
+            ⏰ Limited Time: Get all 3 items for just $34.99
           </p>
           <p className="text-xs md:text-sm opacity-90">
             Regular price $149 • Save over 75% today only

@@ -21,7 +21,7 @@ export default function Hero() {
           
           {/* Subheadline */}
           <p className="text-xl lg:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            "Forget overpriced pills and confusing advice. This $37 Natural Medicine Book is helping thousands regain control, naturally."
+            "Forget overpriced pills and confusing advice. This $34.99 Natural Medicine Book is helping thousands regain control, naturally."
           </p>
           
           {/* Author Info */}

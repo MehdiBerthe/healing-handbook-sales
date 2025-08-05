@@ -54,7 +54,7 @@ export default function Bonuses() {
         <div className="text-center space-y-6">
           <p className="text-xl text-muted-foreground">
             <strong className="text-earth-brown">That's a total value of $149 —
-yours today for just $37.</strong>
+yours today for just $34.99.</strong>
           </p>
           
           <div className="space-y-4">
