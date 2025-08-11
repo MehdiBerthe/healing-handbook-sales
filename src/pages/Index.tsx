@@ -18,11 +18,34 @@ import { FinalCTA } from "@/components/FinalCTA";
 
 const Index = () => {
   useEffect(() => {
+    // Facebook Pixel
+    (function(f: any, b: any, e: any, v: any, n: any, t: any, s: any) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js', null, null, null);
+    
+    (window as any).fbq('init', '624511053638780');
+    (window as any).fbq('track', 'PageView');
+    
+    // Tracking script
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.src = "https://b4sn2.ttrk.io/track.js?rtkcmpid=68979121b38f8b9d45aff64c";
     script.async = true;
     document.head.appendChild(script);
+    
     return () => {
       script.parentNode?.removeChild(script);
     };
