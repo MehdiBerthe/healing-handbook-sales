@@ -28,7 +28,7 @@ export function FinalCTASection() {
             Join thousands of readers who are using nature's remedies to feel better, think clearer, and live with more energy.
           </p>
           
-          <a href="https://www.securepay.zone/natural-medicine">
+          <a href="https://b4sn2.ttrk.io/click">
             <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto mb-8 max-w-md mx-auto">
               GET YOUR COPY NOW
             </Button>

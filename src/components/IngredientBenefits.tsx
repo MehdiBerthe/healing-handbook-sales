@@ -71,7 +71,7 @@ export function IngredientBenefits() {
         </div>
 
         <div className="text-center">
-          <a href="https://www.securepay.zone/natural-medicine">
+          <a href="https://b4sn2.ttrk.io/click">
             <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
               REVEAL MY OFFER
             </Button>

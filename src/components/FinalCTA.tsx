@@ -34,7 +34,7 @@ export function FinalCTA() {
               </div>
             </div>
 
-            <a href="https://www.securepay.zone/natural-medicine">
+            <a href="https://b4sn2.ttrk.io/click">
               <Button variant="ctaSecondary" size="lg" className="text-base sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-8 md:px-12 lg:px-16 py-3 sm:py-4 md:py-6 lg:py-8 w-full sm:w-auto">
                 <span className="sm:hidden">GET MY BOOK NOW!</span>
                 <span className="hidden sm:inline">YES, I WANT MY BOOK NOW!</span>
