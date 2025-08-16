@@ -76,6 +76,9 @@ export default {
 				},
 				'forest-green': 'hsl(var(--forest-green))',
 				cream: 'hsl(var(--cream))',
+				'banner-blue': 'hsl(var(--banner-blue))',
+				'banner-blue-dark': 'hsl(var(--banner-blue-dark))',
+				'banner-yellow': 'hsl(var(--banner-yellow))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

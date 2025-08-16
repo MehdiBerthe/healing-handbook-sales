@@ -50,6 +50,9 @@ All colors MUST be HSL.
     --natural-brown: 25 30% 25%;
     --forest-green: 140 60% 20%;
     --cream: 45 40% 97%;
+    --banner-blue: 217 91% 60%;
+    --banner-blue-dark: 217 91% 53%;
+    --banner-yellow: 45 93% 58%;
 
     --gradient-natural: linear-gradient(135deg, hsl(140 50% 35%), hsl(35 70% 60%));
     --gradient-subtle: linear-gradient(180deg, hsl(45 25% 98%), hsl(45 30% 92%));
