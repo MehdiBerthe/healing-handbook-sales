@@ -1,17 +1,16 @@
+import { Gift } from "lucide-react";
+
 export default function StickyTopBanner() {
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-healing-green to-natural-green text-white shadow-lg">
-      <div className="py-2 md:py-3 px-4 text-center">
-        <div className="container mx-auto">
-          <div className="text-sm md:text-lg lg:text-xl font-bold">
-            ⚡ UP TO 80% OFF YOUR FIRST ORDER + 2 FREE GIFTS ⚡
-          </div>
-        </div>
-      </div>
-      <div className="bg-natural-green/90 py-1 md:py-2 px-4 text-center">
-        <div className="container mx-auto">
-          <div className="text-xs md:text-sm lg:text-base opacity-90">
-            LIMITED TIME OFFER: Get all 3! Only $34.99 (Regular Price $149)
+    <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-700 to-blue-800 text-white py-3 shadow-lg border-t-[5px] border-b-[5px] border-yellow-400">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-center text-center">
+          <div className="flex items-center space-x-2">
+            <Gift className="h-5 w-5 text-yellow-400" />
+            <span className="font-bold text-lg">
+              GET 80% OFF + 2 Free Bonuses – Limited Time!
+            </span>
+            <Gift className="h-5 w-5 text-yellow-400" />
           </div>
         </div>
       </div>
