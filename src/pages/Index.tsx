@@ -38,6 +38,7 @@ const Index = () => {
     
     (window as any).fbq('init', '624511053638780');
     (window as any).fbq('track', 'PageView');
+    (window as any).fbq('track', 'AddToCart');
     
     // Tracking script
     const script = document.createElement("script");
