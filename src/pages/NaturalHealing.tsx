@@ -23,7 +23,11 @@ const NaturalHealing = () => {
     
     (window as any).fbq('init', '624511053638780');
     (window as any).fbq('track', 'PageView');
-    (window as any).fbq('track', 'AddToWishlist');
+    
+    // Add small delay to ensure pixel is fully loaded before custom events
+    setTimeout(() => {
+      (window as any).fbq('track', 'AddToWishlist');
+    }, 1000);
     
     // Tracking script
     const script = document.createElement("script");
