@@ -24,7 +24,7 @@ Like many health-conscious people over 40, I was tired of the endless prescripti
                   That's the feeling that made me look beyond the pharmacy.
                 </p>
                 
-                <div className="bg-white/80 p-4 rounded-lg border border-healing-light/50">
+                <div>
                   <p className="text-muted-foreground leading-relaxed font-medium text-lg">
                     Inside the book, I found:
                   </p>
