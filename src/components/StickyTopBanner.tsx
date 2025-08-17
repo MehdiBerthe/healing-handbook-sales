@@ -7,8 +7,8 @@ export default function StickyTopBanner() {
         <div className="flex items-center justify-center text-center">
           <div className="flex items-center space-x-2">
             <Gift className="h-5 w-5 text-banner-yellow" />
-            <span className="font-bold text-lg">
-              GET 80% OFF + 2 Free Bonuses – Limited Time!
+            <span className="font-bold text-base">
+              Get 80% OFF +2 Free Gifts - Limited Time!
             </span>
             <Gift className="h-5 w-5 text-banner-yellow" />
           </div>
