@@ -32,7 +32,7 @@ export function HeroSection() {
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => <Star key={i} className="w-2 h-2 fill-forest-green text-forest-green" />)}
               </div>
-              Trusted by 50,000+ Happy Customers
+              Trusted by 50,000+ Customers
             </Badge>
           </div>
         </div>
