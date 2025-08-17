@@ -27,6 +27,7 @@ export default function Hero() {
             
             {/* Author Info */}
             <div className="space-y-2">
+              <div className="w-16 h-0.5 bg-green-600 mx-auto"></div>
               <p className="text-base font-semibold text-earth-brown">
                 By Emma Lang | Health Contributor
               </p>
