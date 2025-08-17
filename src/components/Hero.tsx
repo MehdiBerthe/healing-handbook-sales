@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 export default function Hero() {
-  return <section className="relative bg-gradient-to-br from-healing-green/5 to-natural-gold/5 pt-0 pb-16 lg:pt-0 lg:pb-24">
+  return <section className="relative bg-gradient-to-br from-healing-green/5 to-natural-gold/5 pt-0 pb-5 lg:pt-0 lg:pb-5">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Logo */}
         <div className="flex justify-center mb-1">
