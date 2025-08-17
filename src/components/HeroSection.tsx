@@ -100,6 +100,12 @@ export function HeroSection() {
               of Nature
             </h1>
             
+            <a href="https://b4sn2.ttrk.io/click">
+              <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto mb-6 md:mb-8">
+                YES, I WANT MY BOOK NOW!
+              </Button>
+            </a>
+            
             <p className="text-base md:text-lg xl:text-xl text-gray-700 mb-6 md:mb-8 leading-relaxed">
               Discover Simple Herbal Remedies That Help Relieve Pain, Boost Immunity, and Balance Your Body—Without Harsh Chemicals.
             </p>
@@ -123,13 +129,6 @@ export function HeroSection() {
               </div>
             </div>
 
-            
-
-            <a href="https://b4sn2.ttrk.io/click">
-              <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
-                YES, I WANT MY BOOK NOW!
-              </Button>
-            </a>
             
             <SecurityBadges />
           </div>
