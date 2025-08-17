@@ -33,7 +33,7 @@ export default function Hero() {
               <p className="text-base font-semibold text-earth-brown">
                 By Emma Lang | Health Contributor
               </p>
-              <p className="text-muted-foreground">
+              <p className="text-sm text-muted-foreground">
                 Last updated: July 2025
               </p>
             </div>
