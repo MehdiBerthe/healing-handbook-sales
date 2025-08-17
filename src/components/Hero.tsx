@@ -13,7 +13,7 @@ export default function Hero() {
         </div>
 
         <div className="max-w-5xl mx-auto text-center space-y-8">
-          <div className="bg-blue-50 p-8 lg:p-12 rounded-lg">
+          <div className="bg-blue-50 px-3 py-8 lg:py-12 rounded-lg">
             {/* Main Headline */}
             <h1 className="text-3xl lg:text-4xl font-bold leading-tight">
               <span className="text-green-600">I Tried Natural Remedies for 30 Days</span>
