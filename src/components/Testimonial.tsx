@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import womanWithHerbs from "@/assets/woman-with-herbs.jpg";
 export default function Testimonial() {
-  return <section className="py-16 bg-healing-light/30">
+  return <section className="pb-16 bg-healing-light/30">
       <div className="container mx-auto px-4 lg:px-8">
         <Card className="pb-8 px-3 lg:pb-12 lg:px-3 bg-white/80 backdrop-blur-sm border-healing-light">
           <div className="w-full">
