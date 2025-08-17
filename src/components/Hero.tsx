@@ -2,12 +2,12 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 export default function Hero() {
   return <section className="relative bg-gradient-to-br from-healing-green/5 to-natural-gold/5 pt-0 pb-5 lg:pt-0 lg:pb-5">
-      <div className="container mx-auto lg:px-8">
+      <div className="container mx-auto px-4 lg:px-8">
         {/* Logo */}
         <div className="flex justify-center mb-1">
           <img 
-            src="/lovable-uploads/475b3820-92ff-4a6a-8572-e1a55101cac1.png" 
-            alt="The Natural Medicine Book" 
+            src="/lovable-uploads/e6ef64e0-c778-4c02-9ebc-7544a2360042.png" 
+            alt="Ancient Medicine Logo" 
             className="h-16 w-auto"
           />
         </div>
