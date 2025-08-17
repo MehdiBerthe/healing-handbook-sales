@@ -13,14 +13,6 @@ import {
 export function HeroSection() {
   return <section className="bg-cream py-4 md:py-8 lg:py-12 px-4">
       <div className="container mx-auto max-w-6xl">
-        {/* Logo at the top */}
-        <div className="text-center mb-6 md:mb-8">
-          <img 
-            src="/lovable-uploads/41c7e51c-9154-436f-bec6-3635e2f510f9.png" 
-            alt="Ancient Medicine Logo" 
-            className="w-24 h-24 md:w-32 md:h-32 mx-auto"
-          />
-        </div>
         {/* Mobile-only layout: Image first, then trust badge */}
         <div className="lg:hidden">
           {/* Carousel at the very top for mobile */}
