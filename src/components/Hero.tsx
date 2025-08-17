@@ -6,7 +6,7 @@ export default function Hero() {
         {/* Logo */}
         <div className="flex justify-center mb-12">
           <img 
-            src="/lovable-uploads/65bb51a5-e097-49bb-baa3-e4d295cebcea.png" 
+            src="/lovable-uploads/ea3cf515-d21c-4646-9b99-38b059c2f1f8.png" 
             alt="Ancient Medicine Logo" 
             className="h-20 w-auto"
           />
