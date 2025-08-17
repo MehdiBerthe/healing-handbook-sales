@@ -16,41 +16,24 @@ export function HeroSection() {
         {/* Mobile-only layout: Carousel first, then trust badge */}
         <div className="lg:hidden">
           {/* Carousel at the very top for mobile */}
-          <div className="flex justify-center mb-3 px-4">
-            <div className="relative max-w-sm md:max-w-md w-full pt-4 pl-4">
+          <div className="flex justify-center mb-3">
+            <div className="relative max-w-sm md:max-w-md w-full">
+              <div className="absolute top-2 left-2 md:top-3 md:left-3 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-20">
+                BESTSELLER
+              </div>
               <Carousel className="w-full">
                 <CarouselContent>
                   <CarouselItem>
-                    <div className="relative">
-                      <div className="absolute -top-3 -left-3 md:-top-4 md:-left-4 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-10">
-                        BESTSELLER
-                      </div>
-                      <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/6a355743-e8fd-4725-b028-454ed48aedbf.png" />
-                    </div>
+                    <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/6a355743-e8fd-4725-b028-454ed48aedbf.png" />
                   </CarouselItem>
                   <CarouselItem>
-                    <div className="relative">
-                      <div className="absolute -top-3 -left-3 md:-top-4 md:-left-4 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-10">
-                        BESTSELLER
-                      </div>
-                      <img alt="Why You Need This Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/126b01b4-1a0d-4c0d-a9c3-ec1ed1c8d3ab.png" />
-                    </div>
+                    <img alt="Why You Need This Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/126b01b4-1a0d-4c0d-a9c3-ec1ed1c8d3ab.png" />
                   </CarouselItem>
                   <CarouselItem>
-                    <div className="relative">
-                      <div className="absolute -top-3 -left-3 md:-top-4 md:-left-4 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-10">
-                        BESTSELLER
-                      </div>
-                      <img alt="A Recipe For Any Ailment" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/0afee759-49d6-4995-b7ef-5e89ea84afd8.png" />
-                    </div>
+                    <img alt="A Recipe For Any Ailment" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/0afee759-49d6-4995-b7ef-5e89ea84afd8.png" />
                   </CarouselItem>
                   <CarouselItem>
-                    <div className="relative">
-                      <div className="absolute -top-3 -left-3 md:-top-4 md:-left-4 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-10">
-                        BESTSELLER
-                      </div>
-                      <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/776f83d4-8114-4a90-9403-508921eac507.png" />
-                    </div>
+                    <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/776f83d4-8114-4a90-9403-508921eac507.png" />
                   </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="-left-12" />
@@ -83,41 +66,24 @@ export function HeroSection() {
         {/* Two-column layout for desktop, single column for mobile */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center min-h-[400px]">
           {/* Carousel column - left on desktop, hidden on mobile (shown above) */}
-          <div className="hidden lg:flex justify-center relative px-4">
-            <div className="relative max-w-sm md:max-w-md w-full pt-4 pl-4">
+          <div className="hidden lg:flex justify-center relative">
+            <div className="relative max-w-sm md:max-w-md w-full">
+              <div className="absolute top-2 left-2 md:top-3 md:left-3 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-20">
+                BESTSELLER
+              </div>
               <Carousel className="w-full">
                 <CarouselContent>
                   <CarouselItem>
-                    <div className="relative">
-                      <div className="absolute -top-3 -left-3 md:-top-4 md:-left-4 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-10">
-                        BESTSELLER
-                      </div>
-                      <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/6a355743-e8fd-4725-b028-454ed48aedbf.png" />
-                    </div>
+                    <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/6a355743-e8fd-4725-b028-454ed48aedbf.png" />
                   </CarouselItem>
                   <CarouselItem>
-                    <div className="relative">
-                      <div className="absolute -top-3 -left-3 md:-top-4 md:-left-4 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-10">
-                        BESTSELLER
-                      </div>
-                      <img alt="Why You Need This Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/126b01b4-1a0d-4c0d-a9c3-ec1ed1c8d3ab.png" />
-                    </div>
+                    <img alt="Why You Need This Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/126b01b4-1a0d-4c0d-a9c3-ec1ed1c8d3ab.png" />
                   </CarouselItem>
                   <CarouselItem>
-                    <div className="relative">
-                      <div className="absolute -top-3 -left-3 md:-top-4 md:-left-4 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-10">
-                        BESTSELLER
-                      </div>
-                      <img alt="A Recipe For Any Ailment" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/0afee759-49d6-4995-b7ef-5e89ea84afd8.png" />
-                    </div>
+                    <img alt="A Recipe For Any Ailment" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/0afee759-49d6-4995-b7ef-5e89ea84afd8.png" />
                   </CarouselItem>
                   <CarouselItem>
-                    <div className="relative">
-                      <div className="absolute -top-3 -left-3 md:-top-4 md:-left-4 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-10">
-                        BESTSELLER
-                      </div>
-                      <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/776f83d4-8114-4a90-9403-508921eac507.png" />
-                    </div>
+                    <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/776f83d4-8114-4a90-9403-508921eac507.png" />
                   </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="-left-12" />
