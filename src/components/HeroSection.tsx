@@ -16,7 +16,7 @@ export function HeroSection() {
         {/* Mobile-only layout: Carousel first, then trust badge */}
         <div className="lg:hidden">
           {/* Carousel at the very top for mobile */}
-          <div className="flex justify-center mb-3">
+          <div className="flex justify-center mb-3 px-12">
             <div className="relative max-w-sm md:max-w-md w-full">
               <div className="absolute top-2 left-2 md:top-3 md:left-3 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-20">
                 BESTSELLER
@@ -36,8 +36,8 @@ export function HeroSection() {
                     <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/776f83d4-8114-4a90-9403-508921eac507.png" />
                   </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious className="-left-12" />
-                <CarouselNext className="-right-12" />
+                <CarouselPrevious className="-left-8" />
+                <CarouselNext className="-right-8" />
               </Carousel>
             </div>
           </div>
@@ -66,7 +66,7 @@ export function HeroSection() {
         {/* Two-column layout for desktop, single column for mobile */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center min-h-[400px]">
           {/* Carousel column - left on desktop, hidden on mobile (shown above) */}
-          <div className="hidden lg:flex justify-center relative">
+          <div className="hidden lg:flex justify-center relative px-12">
             <div className="relative max-w-sm md:max-w-md w-full">
               <div className="absolute top-2 left-2 md:top-3 md:left-3 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-20">
                 BESTSELLER
@@ -86,8 +86,8 @@ export function HeroSection() {
                     <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/776f83d4-8114-4a90-9403-508921eac507.png" />
                   </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious className="-left-12" />
-                <CarouselNext className="-right-12" />
+                <CarouselPrevious className="-left-8" />
+                <CarouselNext className="-right-8" />
               </Carousel>
             </div>
           </div>
