@@ -107,7 +107,7 @@ export function HeroSection() {
             </a>
             
             <p className="text-base md:text-lg xl:text-xl text-gray-700 mb-6 md:mb-8 leading-relaxed">
-              Discover Simple Herbal Remedies That Help Relieve Pain, Boost Immunity, and Balance Your Body—Without Harsh Chemicals.
+              Discover Simple Herbal Remedies That Help Relieve Pain, Boost Immunity, and Balance Your Body—Without Harsh Chemicals Side Effects.
             </p>
 
             <div className="space-y-3 mb-6 md:mb-8 text-left">
