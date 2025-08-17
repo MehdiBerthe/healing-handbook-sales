@@ -20,7 +20,7 @@ export default function Hero() {
           </h1>
           
           {/* Subheadline */}
-          <p className="text-xl lg:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+          <p className="text-lg lg:text-xl text-foreground max-w-4xl mx-auto leading-relaxed">
             "Forget overpriced pills and confusing advice. This $34.99 Natural Medicine Book is helping thousands regain control, naturally."
           </p>
           
