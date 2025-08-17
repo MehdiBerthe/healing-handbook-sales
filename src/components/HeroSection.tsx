@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/carousel";
 export function HeroSection() {
   return <section className="bg-cream py-4 md:py-8 lg:py-12 px-4">
-      <div className="container mx-auto max-w-6xl">
+      <div className="mx-auto max-w-6xl">
         {/* Mobile-only layout: Carousel first, then trust badge */}
         <div className="lg:hidden">
           {/* Carousel at the very top for mobile */}
