@@ -14,7 +14,7 @@ Like many health-conscious people over 40, I was tired of the endless prescripti
                     Created by renowned herbalist Clara Wells, it opened my eyes to what natural healing really looks like — and how to start using it today.
                   </p>
                 
-                <div className="flex justify-center mb-6">
+                <div className="flex justify-center mb-6 -mx-3 lg:mx-0">
                   <img alt="The Natural Medicine Book" className="w-64 h-auto rounded-lg shadow-lg" src="/lovable-uploads/e3b42741-9b89-4b0b-838d-7b06e7ec39d8.png" />
                 </div>
                 
