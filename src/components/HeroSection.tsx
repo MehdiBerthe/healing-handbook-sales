@@ -113,19 +113,19 @@ export function HeroSection() {
             <div className="space-y-3 mb-6 md:mb-8 text-left">
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-forest-green mt-0.5 flex-shrink-0" />
-                <span className="text-sm md:text-base lg:text-lg text-gray-700">Natural Relief for Arthritis, High Blood Pressure, inflammation, & more</span>
+                <span className="text-sm md:text-base lg:text-lg text-gray-700"><strong>Natural Relief</strong> for Arthritis, High Blood Pressure, inflammation, & more</span>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-forest-green mt-0.5 flex-shrink-0" />
-                <span className="text-sm md:text-base lg:text-lg text-gray-700">120+ Pages of Expert Herbal Remedies with Easy to Follow Recipes</span>
+                <span className="text-sm md:text-base lg:text-lg text-gray-700"><strong>120+ Pages</strong> of Expert Herbal Remedies with Easy to Follow Recipes</span>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-forest-green mt-0.5 flex-shrink-0" />
-                <span className="text-sm md:text-base lg:text-lg text-gray-700">Everyday Ingredients you can find in your kitchen or garden</span>
+                <span className="text-sm md:text-base lg:text-lg text-gray-700"><strong>Everyday Ingredients</strong> you can find in your kitchen or garden</span>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-forest-green mt-0.5 flex-shrink-0" />
-                <span className="text-sm md:text-base lg:text-lg text-gray-700">Scientifically Backed Recipes</span>
+                <span className="text-sm md:text-base lg:text-lg text-gray-700"><strong>Scientifically Backed</strong> Recipes</span>
               </div>
             </div>
 
