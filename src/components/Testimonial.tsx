@@ -3,9 +3,9 @@ import womanWithHerbs from "@/assets/woman-with-herbs.jpg";
 export default function Testimonial() {
   return <section className="pb-16 bg-healing-light/30">
       <div className="container mx-auto px-4 lg:px-8">
-        <Card className="pb-8 px-3 lg:pb-12 lg:px-3 bg-white/80 backdrop-blur-sm border-healing-green">
+        <Card className="pb-8 px-0 lg:pb-12 lg:px-3 bg-white/80 backdrop-blur-sm border-healing-green">
           <div className="w-full">
-            <div className="space-y-6">
+            <div className="space-y-6 px-3 lg:px-0">
               <div className="space-y-4">
                   <h3 className="font-bold text-earth-brown text-xl mb-4 pt-2">Summary:</h3>
                   <p className="text-muted-foreground leading-relaxed text-lg">If you've ever felt like modern medicine was missing something, you're not alone. 
@@ -15,7 +15,7 @@ Like many health-conscious people over 40, I was tired of the endless prescripti
                   </p>
                 
                 <div className="flex justify-center mb-6">
-                  <img alt="The Natural Medicine Book" className="w-64 h-auto rounded-lg shadow-lg" src="/lovable-uploads/e759cafe-ed71-466c-92f3-615aacbaa819.png" />
+                  <img alt="The Natural Medicine Book" className="w-64 h-auto rounded-lg shadow-lg" src="/lovable-uploads/e3b42741-9b89-4b0b-838d-7b06e7ec39d8.png" />
                 </div>
                 
                 <p className="text-xl italic text-earth-brown leading-relaxed">"I wasn't sick, but I wasn't myself."</p>
