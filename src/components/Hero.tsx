@@ -29,7 +29,7 @@ export default function Hero() {
           {/* Author Info */}
           <div className="space-y-2">
             <p className="text-lg font-semibold text-earth-brown">
-              By Emma Lang | Natural Health Researcher
+              By Emma Lang | Health Contributor
             </p>
             <p className="text-muted-foreground">
               Last updated: July 2025
