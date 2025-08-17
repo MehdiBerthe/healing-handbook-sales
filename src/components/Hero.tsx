@@ -5,12 +5,11 @@ export default function Hero() {
       <div className="container mx-auto px-4 lg:px-8">
         {/* Logo */}
         <div className="flex justify-center mb-12">
-          <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-healing-green rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">🌿</span>
-            </div>
-            <span className="text-2xl font-bold text-healing-green">Natural Healing Hub</span>
-          </div>
+          <img 
+            src="/lovable-uploads/65bb51a5-e097-49bb-baa3-e4d295cebcea.png" 
+            alt="Ancient Medicine Logo" 
+            className="h-20 w-auto"
+          />
         </div>
 
         <div className="max-w-5xl mx-auto text-center space-y-8">
