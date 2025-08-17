@@ -17,7 +17,7 @@ export function HeroSection() {
         {/* Mobile-only layout: Image first, then trust badge */}
         <div className="lg:hidden">
           {/* Image at the very top for mobile */}
-          <div className="flex justify-center mb-6">
+          <div className="flex justify-center mb-3">
             <div className="relative max-w-sm md:max-w-md w-full">
               <div className="absolute -top-3 -left-3 md:-top-4 md:-left-4 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-10">
                 BESTSELLER
