@@ -4,11 +4,11 @@ export default function Hero() {
   return <section className="relative bg-gradient-to-br from-healing-green/5 to-natural-gold/5 pt-4 pb-16 lg:pt-6 lg:pb-24 mt-2">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Logo */}
-        <div className="flex justify-center mb-12">
+        <div className="flex justify-center mb-4">
           <img 
             src="/lovable-uploads/ea3cf515-d21c-4646-9b99-38b059c2f1f8.png" 
             alt="Ancient Medicine Logo" 
-            className="h-20 w-auto"
+            className="h-12 w-auto"
           />
         </div>
 
