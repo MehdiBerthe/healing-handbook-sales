@@ -16,8 +16,8 @@ export function HeroSection() {
         {/* Mobile-only layout: Carousel first, then trust badge */}
         <div className="lg:hidden">
           {/* Carousel at the very top for mobile */}
-          <div className="flex justify-center mb-3">
-            <div className="relative max-w-sm md:max-w-md w-full">
+          <div className="flex justify-center mb-3 px-4">
+            <div className="relative max-w-sm md:max-w-md w-full pt-4 pl-4">
               <Carousel className="w-full">
                 <CarouselContent>
                   <CarouselItem>
@@ -83,8 +83,8 @@ export function HeroSection() {
         {/* Two-column layout for desktop, single column for mobile */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center min-h-[400px]">
           {/* Carousel column - left on desktop, hidden on mobile (shown above) */}
-          <div className="hidden lg:flex justify-center relative">
-            <div className="relative max-w-sm md:max-w-md w-full">
+          <div className="hidden lg:flex justify-center relative px-4">
+            <div className="relative max-w-sm md:max-w-md w-full pt-4 pl-4">
               <Carousel className="w-full">
                 <CarouselContent>
                   <CarouselItem>
