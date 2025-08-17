@@ -13,25 +13,27 @@ export default function Hero() {
         </div>
 
         <div className="max-w-5xl mx-auto text-center space-y-8">
-          {/* Main Headline */}
-          <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-            <span className="text-green-600">I Tried Natural Remedies for 30 Days</span>
-            <span className="text-earth-brown"> — Here's What Actually Helped</span>
-          </h1>
-          
-          {/* Subheadline */}
-          <p className="text-lg lg:text-xl text-foreground max-w-4xl mx-auto leading-relaxed">
-            "Forget overpriced pills and confusing advice. This $34.99 Natural Medicine Book is helping thousands regain control, naturally."
-          </p>
-          
-          {/* Author Info */}
-          <div className="space-y-2">
-            <p className="text-base font-semibold text-earth-brown">
-              By Emma Lang | Health Contributor
+          <div className="bg-blue-50 p-8 lg:p-12 rounded-lg">
+            {/* Main Headline */}
+            <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+              <span className="text-green-600">I Tried Natural Remedies for 30 Days</span>
+              <span className="text-earth-brown"> — Here's What Actually Helped</span>
+            </h1>
+            
+            {/* Subheadline */}
+            <p className="text-lg lg:text-xl text-foreground max-w-4xl mx-auto leading-relaxed">
+              "Forget overpriced pills and confusing advice. This $34.99 Natural Medicine Book is helping thousands regain control, naturally."
             </p>
-            <p className="text-muted-foreground">
-              Last updated: July 2025
-            </p>
+            
+            {/* Author Info */}
+            <div className="space-y-2">
+              <p className="text-base font-semibold text-earth-brown">
+                By Emma Lang | Health Contributor
+              </p>
+              <p className="text-muted-foreground">
+                Last updated: July 2025
+              </p>
+            </div>
           </div>
           
           {/* CTA Button */}
