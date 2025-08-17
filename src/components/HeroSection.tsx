@@ -113,19 +113,19 @@ export function HeroSection() {
             <div className="space-y-3 mb-6 md:mb-8 text-left">
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-forest-green mt-0.5 flex-shrink-0" />
-                <span className="text-sm md:text-base lg:text-lg text-gray-700">Natural relief for inflammation, digestion, immunity & more</span>
+                <span className="text-sm md:text-base lg:text-lg text-gray-700">Natural Relief for Arthritis, High Blood Pressure, inflammation, & more</span>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-forest-green mt-0.5 flex-shrink-0" />
-                <span className="text-sm md:text-base lg:text-lg text-gray-700">120+ pages of expert herbal remedies</span>
+                <span className="text-sm md:text-base lg:text-lg text-gray-700">120+ Pages of Expert Herbal Remedies with Easy to Follow Recipes</span>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-forest-green mt-0.5 flex-shrink-0" />
-                <span className="text-sm md:text-base lg:text-lg text-gray-700">Made with common ingredients in your kitchen or garden</span>
+                <span className="text-sm md:text-base lg:text-lg text-gray-700">Everyday Ingredients you can find in your kitchen or garden</span>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-forest-green mt-0.5 flex-shrink-0" />
-                <span className="text-sm md:text-base lg:text-lg text-gray-700">Based on science and traditional wisdom</span>
+                <span className="text-sm md:text-base lg:text-lg text-gray-700">Scientifically Backed Recipes</span>
               </div>
             </div>
 
