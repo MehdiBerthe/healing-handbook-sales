@@ -21,7 +21,7 @@ export default function Hero() {
             </h1>
             
             {/* Subheadline */}
-            <p className="text-lg lg:text-xl text-foreground max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg lg:text-xl text-foreground max-w-4xl mx-auto leading-relaxed -mt-4">
               "Forget overpriced pills and confusing advice. This $34.99 Natural Medicine Book is helping thousands over 50 feel sharper, lighter and regain control, naturally."
             </p>
             
