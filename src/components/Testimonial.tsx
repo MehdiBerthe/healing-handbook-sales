@@ -7,14 +7,12 @@ export default function Testimonial() {
           <div className="w-full">
             <div className="space-y-6">
               <div className="space-y-4">
-                <div className="bg-healing-light/20 p-6 rounded-lg border-l-4 border-healing-green mb-6">
                   <h3 className="font-bold text-earth-brown text-xl mb-4">Summary:</h3>
                   <p className="text-muted-foreground leading-relaxed text-lg">If you've ever felt like modern medicine was missing something, you're not alone. 
 Like many health-conscious people over 40, I was tired of the endless prescriptions, foggy thinking, and side effects. That's when I discovered "The Natural Medicine Book", a powerful guide filled with remedies that have stood the test of time.</p>
                   <p className="text-muted-foreground leading-relaxed mt-4 text-lg">
                     Created by renowned herbalist Clara Wells, it opened my eyes to what natural healing really looks like — and how to start using it today.
                   </p>
-                </div>
                 
                 <div className="flex justify-center mb-6">
                   <img alt="The Natural Medicine Book" className="w-64 h-auto rounded-lg shadow-lg" src="/lovable-uploads/e759cafe-ed71-466c-92f3-615aacbaa819.png" />
