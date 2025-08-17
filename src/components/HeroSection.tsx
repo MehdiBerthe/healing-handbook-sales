@@ -18,7 +18,7 @@ export function HeroSection() {
           {/* Carousel at the very top for mobile */}
           <div className="flex justify-center mb-3 px-12">
             <div className="relative max-w-sm md:max-w-md w-full">
-              <div className="absolute top-2 left-2 md:top-3 md:left-3 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-20">
+              <div className="absolute -top-2 -left-2 md:-top-3 md:-left-3 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-20">
                 BESTSELLER
               </div>
               <Carousel className="w-full">
@@ -68,7 +68,7 @@ export function HeroSection() {
           {/* Carousel column - left on desktop, hidden on mobile (shown above) */}
           <div className="hidden lg:flex justify-center relative px-12">
             <div className="relative max-w-sm md:max-w-md w-full">
-              <div className="absolute top-2 left-2 md:top-3 md:left-3 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-20">
+              <div className="absolute -top-2 -left-2 md:-top-3 md:-left-3 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-20">
                 BESTSELLER
               </div>
               <Carousel className="w-full">
