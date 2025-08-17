@@ -2,7 +2,7 @@ export function TopBanner() {
   return (
     <div className="sticky top-0 z-50">
       <div className="bg-forest-green text-white py-2 md:py-3 text-center font-bold">
-        <div className="container mx-auto">
+        <div className="mx-auto">
           <div className="text-xs md:text-sm lg:text-base">
             ⚡ UP TO 80% OFF YOUR FIRST ORDER + 2 FREE GIFTS ⚡
           </div>
