@@ -27,7 +27,7 @@ export function HeroSection() {
           </div>
 
           {/* Trust badge for mobile */}
-          <div className="text-center mb-6">
+          <div className="text-center mb-3">
             <Badge variant="secondary" className="bg-forest-green/10 text-forest-green border-forest-green/20 text-xs">
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => <Star key={i} className="w-2 h-2 fill-forest-green text-forest-green" />)}
