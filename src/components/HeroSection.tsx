@@ -24,7 +24,7 @@ export function HeroSection() {
               <Carousel className="w-full">
                 <CarouselContent>
                   <CarouselItem>
-                    <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/6a355743-e8fd-4725-b028-454ed48aedbf.png" />
+                    <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f72781af-9e5c-4cf7-8b19-94aecdcb2fd3.png" />
                   </CarouselItem>
                   <CarouselItem>
                     <img alt="Why You Need This Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/126b01b4-1a0d-4c0d-a9c3-ec1ed1c8d3ab.png" />
@@ -33,7 +33,7 @@ export function HeroSection() {
                     <img alt="A Recipe For Any Ailment" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/0afee759-49d6-4995-b7ef-5e89ea84afd8.png" />
                   </CarouselItem>
                   <CarouselItem>
-                    <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/776f83d4-8114-4a90-9403-508921eac507.png" />
+                    <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/23d5238f-bd7e-4334-9bb5-c535521e3844.png" />
                   </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8" />
@@ -74,7 +74,7 @@ export function HeroSection() {
               <Carousel className="w-full">
                 <CarouselContent>
                   <CarouselItem>
-                    <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/6a355743-e8fd-4725-b028-454ed48aedbf.png" />
+                    <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f72781af-9e5c-4cf7-8b19-94aecdcb2fd3.png" />
                   </CarouselItem>
                   <CarouselItem>
                     <img alt="Why You Need This Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/126b01b4-1a0d-4c0d-a9c3-ec1ed1c8d3ab.png" />
@@ -83,7 +83,7 @@ export function HeroSection() {
                     <img alt="A Recipe For Any Ailment" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/0afee759-49d6-4995-b7ef-5e89ea84afd8.png" />
                   </CarouselItem>
                   <CarouselItem>
-                    <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/776f83d4-8114-4a90-9403-508921eac507.png" />
+                    <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/23d5238f-bd7e-4334-9bb5-c535521e3844.png" />
                   </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8" />
