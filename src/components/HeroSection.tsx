@@ -23,18 +23,18 @@ export function HeroSection() {
               </div>
               <Carousel className="w-full">
                 <CarouselContent>
-                  <CarouselItem>
-                    <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f72781af-9e5c-4cf7-8b19-94aecdcb2fd3.png" />
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img alt="Why You Need This Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/126b01b4-1a0d-4c0d-a9c3-ec1ed1c8d3ab.png" />
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img alt="A Recipe For Any Ailment" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/0afee759-49d6-4995-b7ef-5e89ea84afd8.png" />
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/23d5238f-bd7e-4334-9bb5-c535521e3844.png" />
-                  </CarouselItem>
+                   <CarouselItem>
+                     <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/609c2e5e-3e22-4cc5-bc1c-6e601c8c9cba.png" />
+                   </CarouselItem>
+                   <CarouselItem>
+                     <img alt="Natural Medicine Book with Content" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/bcd0e1b1-9d0a-46c5-a5b6-90165bccaff4.png" />
+                   </CarouselItem>
+                   <CarouselItem>
+                     <img alt="Complete Natural Medicine Bundle" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/2a0a2b4d-0ce1-495d-84ed-60f59190f828.png" />
+                   </CarouselItem>
+                   <CarouselItem>
+                     <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f5a108b9-5d6f-4d91-a186-486c84d9ff8c.png" />
+                   </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:hidden" />
                 <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:hidden" />
@@ -73,18 +73,18 @@ export function HeroSection() {
               </div>
               <Carousel className="w-full">
                 <CarouselContent>
-                  <CarouselItem>
-                    <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f72781af-9e5c-4cf7-8b19-94aecdcb2fd3.png" />
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img alt="Why You Need This Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/126b01b4-1a0d-4c0d-a9c3-ec1ed1c8d3ab.png" />
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img alt="A Recipe For Any Ailment" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/0afee759-49d6-4995-b7ef-5e89ea84afd8.png" />
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/23d5238f-bd7e-4334-9bb5-c535521e3844.png" />
-                  </CarouselItem>
+                   <CarouselItem>
+                     <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/609c2e5e-3e22-4cc5-bc1c-6e601c8c9cba.png" />
+                   </CarouselItem>
+                   <CarouselItem>
+                     <img alt="Natural Medicine Book with Content" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/bcd0e1b1-9d0a-46c5-a5b6-90165bccaff4.png" />
+                   </CarouselItem>
+                   <CarouselItem>
+                     <img alt="Complete Natural Medicine Bundle" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/2a0a2b4d-0ce1-495d-84ed-60f59190f828.png" />
+                   </CarouselItem>
+                   <CarouselItem>
+                     <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f5a108b9-5d6f-4d91-a186-486c84d9ff8c.png" />
+                   </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:hidden" />
                 <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:hidden" />
