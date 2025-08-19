@@ -1,6 +1,6 @@
 export function TopBanner() {
   return (
-    <div className="sticky top-0 z-50">
+    <a href="https://b4sn2.ttrk.io/click" className="sticky top-0 z-50 block cursor-pointer">
       <div className="bg-forest-green text-white py-2 md:py-3 text-center font-bold">
         <div className="mx-auto">
           <div className="text-xs md:text-sm lg:text-base">
@@ -15,6 +15,6 @@ export function TopBanner() {
           </div>
         </div>
       </div>
-    </div>
+    </a>
   );
 }
