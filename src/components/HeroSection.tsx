@@ -38,6 +38,12 @@ export function HeroSection() {
                    <CarouselItem>
                      <img alt="What Others Are Saying - Customer Testimonials" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/dc361f58-e6f2-470e-ad04-acddc0156ea7.png" loading="lazy" />
                    </CarouselItem>
+                   <CarouselItem>
+                     <img alt="Everyday Ingredients - Natural Healing Components" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/dedf893f-d087-419f-8385-504c3d94bb35.png" loading="lazy" />
+                   </CarouselItem>
+                   <CarouselItem>
+                     <img alt="Extraordinary Results - Powerful Health Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/31f3ca22-1485-4c52-9fbe-0a51fb35e88c.png" loading="lazy" />
+                   </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8" />
                 <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8" />
@@ -93,6 +99,12 @@ export function HeroSection() {
                    </CarouselItem>
                    <CarouselItem>
                      <img alt="What Others Are Saying - Customer Testimonials" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/dc361f58-e6f2-470e-ad04-acddc0156ea7.png" loading="lazy" />
+                   </CarouselItem>
+                   <CarouselItem>
+                     <img alt="Everyday Ingredients - Natural Healing Components" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/dedf893f-d087-419f-8385-504c3d94bb35.png" loading="lazy" />
+                   </CarouselItem>
+                   <CarouselItem>
+                     <img alt="Extraordinary Results - Powerful Health Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/31f3ca22-1485-4c52-9fbe-0a51fb35e88c.png" loading="lazy" />
                    </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8" />
