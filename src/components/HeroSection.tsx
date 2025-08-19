@@ -104,17 +104,17 @@ export function HeroSection() {
             </h1>
             
             <div className="flex flex-col sm:flex-row items-center gap-4 mb-6 md:mb-8">
-              <a href="https://b4sn2.ttrk.io/click">
-                <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
-                  YES, I WANT MY BOOK NOW!
-                </Button>
-              </a>
               {/* Price badge next to button - desktop only */}
               <div className="hidden lg:block">
                 <Badge variant="secondary" className="bg-red-500 hover:bg-red-500 text-white border-0 text-lg font-bold px-4 py-2">
                   <span className="text-xl">$19</span> <span className="line-through text-red-200 ml-2 font-normal text-sm">$149</span>
                 </Badge>
               </div>
+              <a href="https://b4sn2.ttrk.io/click">
+                <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
+                  YES, I WANT MY BOOK NOW!
+                </Button>
+              </a>
             </div>
             
             <p className="text-base md:text-lg xl:text-xl text-gray-700 mb-6 md:mb-8 leading-relaxed">
