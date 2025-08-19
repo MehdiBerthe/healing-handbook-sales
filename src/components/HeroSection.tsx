@@ -24,16 +24,16 @@ export function HeroSection() {
               <Carousel className="w-full" opts={{ loop: true }}>
                 <CarouselContent>
                    <CarouselItem>
-                     <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/609c2e5e-3e22-4cc5-bc1c-6e601c8c9cba.png" loading="lazy" fetchPriority="high" />
+                     <img alt="The Natural Medicine Book with Content Pages" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/97796816-a8ef-4eb5-bab3-90dcf561dbfe.png" loading="lazy" fetchPriority="high" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="Natural Medicine Book with Content" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/bcd0e1b1-9d0a-46c5-a5b6-90165bccaff4.png" loading="lazy" />
+                     <img alt="Why You Need This Book - 6 Key Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/90a0745e-dc1a-4446-bf98-a65cb43b1197.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="Complete Natural Medicine Bundle" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/2a0a2b4d-0ce1-495d-84ed-60f59190f828.png" loading="lazy" />
+                     <img alt="A Recipe for Any Ailment - Health Categories" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/05715343-d6d9-4ff1-ae8b-724b04440507.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f5a108b9-5d6f-4d91-a186-486c84d9ff8c.png" loading="lazy" />
+                     <img alt="What Others Are Saying - Customer Testimonials" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/5cc8887f-b23f-41c4-ba4d-3c3b41d2b4b2.png" loading="lazy" />
                    </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8" />
@@ -74,16 +74,16 @@ export function HeroSection() {
               <Carousel className="w-full" opts={{ loop: true }}>
                 <CarouselContent>
                    <CarouselItem>
-                     <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/609c2e5e-3e22-4cc5-bc1c-6e601c8c9cba.png" loading="lazy" fetchPriority="high" />
+                     <img alt="The Natural Medicine Book with Content Pages" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/97796816-a8ef-4eb5-bab3-90dcf561dbfe.png" loading="lazy" fetchPriority="high" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="Natural Medicine Book with Content" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/bcd0e1b1-9d0a-46c5-a5b6-90165bccaff4.png" loading="lazy" />
+                     <img alt="Why You Need This Book - 6 Key Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/90a0745e-dc1a-4446-bf98-a65cb43b1197.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="Complete Natural Medicine Bundle" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/2a0a2b4d-0ce1-495d-84ed-60f59190f828.png" loading="lazy" />
+                     <img alt="A Recipe for Any Ailment - Health Categories" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/05715343-d6d9-4ff1-ae8b-724b04440507.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f5a108b9-5d6f-4d91-a186-486c84d9ff8c.png" loading="lazy" />
+                     <img alt="What Others Are Saying - Customer Testimonials" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/5cc8887f-b23f-41c4-ba4d-3c3b41d2b4b2.png" loading="lazy" />
                    </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8" />
