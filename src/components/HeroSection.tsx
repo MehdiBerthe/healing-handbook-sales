@@ -36,8 +36,8 @@ export function HeroSection() {
                      <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f5a108b9-5d6f-4d91-a186-486c84d9ff8c.png" loading="lazy" />
                    </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:hidden" />
-                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:hidden" />
+                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:opacity-0 data-[disabled]:pointer-events-none" />
+                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:opacity-0 data-[disabled]:pointer-events-none" />
               </Carousel>
             </div>
           </div>
@@ -86,8 +86,8 @@ export function HeroSection() {
                      <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f5a108b9-5d6f-4d91-a186-486c84d9ff8c.png" loading="lazy" />
                    </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:hidden" />
-                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:hidden" />
+                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:opacity-0 data-[disabled]:pointer-events-none" />
+                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:opacity-0 data-[disabled]:pointer-events-none" />
               </Carousel>
             </div>
           </div>
