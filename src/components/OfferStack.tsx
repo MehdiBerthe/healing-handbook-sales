@@ -80,7 +80,7 @@ export function OfferStack() {
               {/* Pricing */}
               <div className="text-center mb-6">
                 <div className="mb-4">
-                  <span className="text-4xl md:text-5xl font-bold text-gray-900">only $34.99</span>
+                  <span className="text-4xl md:text-5xl font-bold text-gray-900">only $19</span>
                   <span className="text-lg text-gray-500 line-through ml-2">(Regular Price $149)</span>
                 </div>
                 

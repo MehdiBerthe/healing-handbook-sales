@@ -12,8 +12,8 @@ export default function SpecialOffer() {
               
               
               <div className="bg-healing-light/30 p-6 rounded-lg border-l-4 border-healing-green">
-                <p className="text-xl lg:text-2xl font-semibold text-earth-brown mb-2">Valued at $149 - now only $34.99
- Get your copy before they try to ban this book again!</p>
+                <p className="text-xl lg:text-2xl font-semibold text-earth-brown mb-2">Valued at $149 - now only $19
+ Get your copy before they try to ban this book again!</p>
               </div>
               
               <div className="text-2xl lg:text-3xl font-bold text-healing-green mb-6">
@@ -26,7 +26,7 @@ export default function SpecialOffer() {
                 </p>
                 
                 <p className="font-semibold text-earth-brown">
-                  Right now, Clara is offering <span className="text-healing-green">The Natural Medicine Book</span> for just <span className="text-2xl text-natural-gold font-bold">$34.99</span> — that's <span className="text-xl font-bold text-healing-green">$114.01 off</span> the regular retail price of $149.
+                  Right now, Clara is offering <span className="text-healing-green">The Natural Medicine Book</span> for just <span className="text-2xl text-natural-gold font-bold">$19</span> — that's <span className="text-xl font-bold text-healing-green">$130 off</span> the regular retail price of $149.
                 </p>
               </div>
             </div>

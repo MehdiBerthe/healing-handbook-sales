@@ -19,13 +19,13 @@ export default function PriceOffer() {
           {/* Pricing */}
           <div className="mb-8">
             <div className="text-6xl font-bold text-black mb-2">
-              $34.99<span className="text-3xl">ONLY</span>
+              $19<span className="text-3xl">ONLY</span>
             </div>
             <div className="text-xl text-red-500 mb-4">
               Original Price: <span className="line-through">$149</span>
             </div>
             <div className="text-2xl font-bold text-black mb-6">
-              Save $112 Now!
+              Save $130 Now!
             </div>
             
             {/* Additional CTA Button */}

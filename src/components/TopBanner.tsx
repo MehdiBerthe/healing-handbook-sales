@@ -11,7 +11,7 @@ export function TopBanner() {
       <div className="bg-natural-green text-white py-1 md:py-2 text-center">
         <div className="container mx-auto">
           <div className="text-xs md:text-sm lg:text-base opacity-90">
-            LIMITED TIME OFFER: Get all 3! Only $34.99 (Regular Price $149)
+            LIMITED TIME OFFER: Get all 3! Only $19 (Regular Price $149)
           </div>
         </div>
       </div>
