@@ -21,7 +21,7 @@ const ingredients = [
   {
     name: "Ginger",
     description: "Warms digestion, calms nausea, and eases inflammation.",
-    emoji: "🫚",
+    emoji: "/lovable-uploads/035a48ef-6ad2-42b6-98b8-3fd7f77876bd.png",
   },
   {
     name: "Lemon",
