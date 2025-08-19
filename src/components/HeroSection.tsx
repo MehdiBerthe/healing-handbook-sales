@@ -30,6 +30,9 @@ export function HeroSection() {
                      <img alt="The Natural Medicine Book Bundle with Free Digital Bonuses" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/ab8cb3a6-ffae-47ea-9583-5068eace40aa.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
+                     <img alt="Why You Need This Book - 6 Key Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/d5332c9b-a80f-4c89-b748-2a16471fe0dc.png" loading="lazy" />
+                   </CarouselItem>
+                   <CarouselItem>
                      <img alt="A Recipe for Any Ailment - Health Categories" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/610d95b8-1663-4d5a-baaf-3a6af39e11b9.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
@@ -81,6 +84,9 @@ export function HeroSection() {
                    </CarouselItem>
                    <CarouselItem>
                      <img alt="The Natural Medicine Book Bundle with Free Digital Bonuses" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/ab8cb3a6-ffae-47ea-9583-5068eace40aa.png" loading="lazy" />
+                   </CarouselItem>
+                   <CarouselItem>
+                     <img alt="Why You Need This Book - 6 Key Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/d5332c9b-a80f-4c89-b748-2a16471fe0dc.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
                      <img alt="A Recipe for Any Ailment - Health Categories" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/610d95b8-1663-4d5a-baaf-3a6af39e11b9.png" loading="lazy" />
