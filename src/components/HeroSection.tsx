@@ -56,19 +56,14 @@ export function HeroSection() {
           </div>
         </div>
 
-        {/* Desktop layout: Trust badge and price at top */}
+        {/* Desktop layout: Trust badge only at top */}
         <div className="hidden lg:block text-center mb-4 lg:mb-6">
-          <div className="flex justify-between items-center max-w-4xl mx-auto">
-            <Badge variant="secondary" className="bg-red-500 hover:bg-red-500 text-white border-0 text-lg font-bold px-4 py-2">
-              <span className="text-xl">$19</span> <span className="line-through text-red-200 ml-2 font-normal text-sm">$149</span>
-            </Badge>
-            <Badge variant="secondary" className="bg-forest-green/10 hover:bg-forest-green/10 text-forest-green border-forest-green/20 text-sm">
-              <div className="flex items-center gap-1 mr-2">
-                {[...Array(5)].map((_, i) => <Star key={i} className="w-3 h-3 fill-forest-green text-forest-green" />)}
-              </div>
-              Trusted by 50,000+ Happy Customers
-            </Badge>
-          </div>
+          <Badge variant="secondary" className="bg-forest-green/10 hover:bg-forest-green/10 text-forest-green border-forest-green/20 text-sm">
+            <div className="flex items-center gap-1 mr-2">
+              {[...Array(5)].map((_, i) => <Star key={i} className="w-3 h-3 fill-forest-green text-forest-green" />)}
+            </div>
+            Trusted by 50,000+ Happy Customers
+          </Badge>
         </div>
 
         {/* Two-column layout for desktop, single column for mobile */}
@@ -108,11 +103,19 @@ export function HeroSection() {
               of Nature
             </h1>
             
-            <a href="https://b4sn2.ttrk.io/click">
-              <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto mb-6 md:mb-8">
-                YES, I WANT MY BOOK NOW!
-              </Button>
-            </a>
+            <div className="flex flex-col sm:flex-row items-center gap-4 mb-6 md:mb-8">
+              <a href="https://b4sn2.ttrk.io/click">
+                <Button variant="forest" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">
+                  YES, I WANT MY BOOK NOW!
+                </Button>
+              </a>
+              {/* Price badge next to button - desktop only */}
+              <div className="hidden lg:block">
+                <Badge variant="secondary" className="bg-red-500 hover:bg-red-500 text-white border-0 text-lg font-bold px-4 py-2">
+                  <span className="text-xl">$19</span> <span className="line-through text-red-200 ml-2 font-normal text-sm">$149</span>
+                </Badge>
+              </div>
+            </div>
             
             <p className="text-base md:text-lg xl:text-xl text-gray-700 mb-6 md:mb-8 leading-relaxed">
               Discover Simple Herbal Remedies That Help Relieve Pain, Boost Immunity, and Balance Your Body—Without Harsh Chemicals Side Effects.
