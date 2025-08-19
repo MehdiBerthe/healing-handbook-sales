@@ -44,8 +44,8 @@ export function HeroSection() {
 
           {/* Trust badge and price for mobile */}
           <div className="text-center mb-3 flex items-center justify-between gap-4 px-4">
-            <Badge variant="secondary" className="bg-red-500 text-white border-0 text-xs font-bold px-3 py-1">
-              Only $19 <span className="line-through text-red-200 ml-1 font-normal">$149</span>
+            <Badge variant="secondary" className="bg-red-500 text-white border-0 text-sm font-bold px-3 py-1">
+              <span className="text-lg">$19</span> <span className="line-through text-red-200 ml-1 font-normal text-xs">$149</span>
             </Badge>
             <Badge variant="secondary" className="bg-forest-green/10 text-forest-green border-forest-green/20 text-xs">
               <div className="flex items-center gap-1">
@@ -59,8 +59,8 @@ export function HeroSection() {
         {/* Desktop layout: Trust badge and price at top */}
         <div className="hidden lg:block text-center mb-4 lg:mb-6">
           <div className="flex justify-between items-center max-w-4xl mx-auto">
-            <Badge variant="secondary" className="bg-red-500 text-white border-0 text-sm font-bold px-4 py-2">
-              Only $19 <span className="line-through text-red-200 ml-2 font-normal">$149</span>
+            <Badge variant="secondary" className="bg-red-500 text-white border-0 text-lg font-bold px-4 py-2">
+              <span className="text-xl">$19</span> <span className="line-through text-red-200 ml-2 font-normal text-sm">$149</span>
             </Badge>
             <Badge variant="secondary" className="bg-forest-green/10 text-forest-green border-forest-green/20 text-sm">
               <div className="flex items-center gap-1 mr-2">
