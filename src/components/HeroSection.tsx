@@ -24,16 +24,16 @@ export function HeroSection() {
               <Carousel className="w-full">
                 <CarouselContent>
                    <CarouselItem>
-                     <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/609c2e5e-3e22-4cc5-bc1c-6e601c8c9cba.png" />
+                     <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/609c2e5e-3e22-4cc5-bc1c-6e601c8c9cba.png" loading="lazy" fetchPriority="high" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="Natural Medicine Book with Content" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/bcd0e1b1-9d0a-46c5-a5b6-90165bccaff4.png" />
+                     <img alt="Natural Medicine Book with Content" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/bcd0e1b1-9d0a-46c5-a5b6-90165bccaff4.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="Complete Natural Medicine Bundle" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/2a0a2b4d-0ce1-495d-84ed-60f59190f828.png" />
+                     <img alt="Complete Natural Medicine Bundle" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/2a0a2b4d-0ce1-495d-84ed-60f59190f828.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f5a108b9-5d6f-4d91-a186-486c84d9ff8c.png" />
+                     <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f5a108b9-5d6f-4d91-a186-486c84d9ff8c.png" loading="lazy" />
                    </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:hidden" />
@@ -74,16 +74,16 @@ export function HeroSection() {
               <Carousel className="w-full">
                 <CarouselContent>
                    <CarouselItem>
-                     <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/609c2e5e-3e22-4cc5-bc1c-6e601c8c9cba.png" />
+                     <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/609c2e5e-3e22-4cc5-bc1c-6e601c8c9cba.png" loading="lazy" fetchPriority="high" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="Natural Medicine Book with Content" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/bcd0e1b1-9d0a-46c5-a5b6-90165bccaff4.png" />
+                     <img alt="Natural Medicine Book with Content" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/bcd0e1b1-9d0a-46c5-a5b6-90165bccaff4.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="Complete Natural Medicine Bundle" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/2a0a2b4d-0ce1-495d-84ed-60f59190f828.png" />
+                     <img alt="Complete Natural Medicine Bundle" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/2a0a2b4d-0ce1-495d-84ed-60f59190f828.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f5a108b9-5d6f-4d91-a186-486c84d9ff8c.png" />
+                     <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f5a108b9-5d6f-4d91-a186-486c84d9ff8c.png" loading="lazy" />
                    </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:hidden" />
