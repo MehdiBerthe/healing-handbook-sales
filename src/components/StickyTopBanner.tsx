@@ -1,8 +1,9 @@
 import { Gift } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function StickyTopBanner() {
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-banner-blue to-banner-blue-dark text-white py-3 shadow-lg border-t-[5px] border-b-[5px] border-banner-yellow">
+    <Link to="/offer" className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-banner-blue to-banner-blue-dark text-white py-3 shadow-lg border-t-[5px] border-b-[5px] border-banner-yellow hover:opacity-90 transition-opacity cursor-pointer">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-center text-center">
           <div className="flex items-center space-x-2">
@@ -14,6 +15,6 @@ export default function StickyTopBanner() {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

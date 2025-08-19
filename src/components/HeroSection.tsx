@@ -43,30 +43,30 @@ export function HeroSection() {
           </div>
 
           {/* Trust badge and price for mobile */}
-          <div className="text-center mb-3 flex flex-col items-center gap-2">
+          <div className="text-center mb-3 flex items-center justify-between gap-4 px-4">
+            <Badge variant="secondary" className="bg-red-500 text-white border-0 text-xs font-bold px-3 py-1">
+              Only $19 <span className="line-through text-red-200 ml-1 font-normal">$149</span>
+            </Badge>
             <Badge variant="secondary" className="bg-forest-green/10 text-forest-green border-forest-green/20 text-xs">
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => <Star key={i} className="w-2 h-2 fill-forest-green text-forest-green" />)}
               </div>
               Trusted by 50,000+ Customers
             </Badge>
-            <Badge variant="secondary" className="bg-red-500 text-white border-0 text-xs font-bold px-3 py-1">
-              Only $19 <span className="line-through text-red-200 ml-1 font-normal">$149</span>
-            </Badge>
           </div>
         </div>
 
         {/* Desktop layout: Trust badge and price at top */}
         <div className="hidden lg:block text-center mb-4 lg:mb-6">
-          <div className="flex justify-center items-center gap-4 flex-wrap">
+          <div className="flex justify-between items-center max-w-4xl mx-auto">
+            <Badge variant="secondary" className="bg-red-500 text-white border-0 text-sm font-bold px-4 py-2">
+              Only $19 <span className="line-through text-red-200 ml-2 font-normal">$149</span>
+            </Badge>
             <Badge variant="secondary" className="bg-forest-green/10 text-forest-green border-forest-green/20 text-sm">
               <div className="flex items-center gap-1 mr-2">
                 {[...Array(5)].map((_, i) => <Star key={i} className="w-3 h-3 fill-forest-green text-forest-green" />)}
               </div>
               Trusted by 50,000+ Happy Customers
-            </Badge>
-            <Badge variant="secondary" className="bg-red-500 text-white border-0 text-sm font-bold px-4 py-2">
-              Only $19 <span className="line-through text-red-200 ml-2 font-normal">$149</span>
             </Badge>
           </div>
         </div>
