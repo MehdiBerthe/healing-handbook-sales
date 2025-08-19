@@ -21,7 +21,7 @@ export function HeroSection() {
               <div className="absolute -top-2 -left-2 md:-top-3 md:-left-3 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-20">
                 BESTSELLER
               </div>
-              <Carousel className="w-full">
+              <Carousel className="w-full" opts={{ loop: true }}>
                 <CarouselContent>
                    <CarouselItem>
                      <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/609c2e5e-3e22-4cc5-bc1c-6e601c8c9cba.png" loading="lazy" fetchPriority="high" />
@@ -36,8 +36,8 @@ export function HeroSection() {
                      <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f5a108b9-5d6f-4d91-a186-486c84d9ff8c.png" loading="lazy" />
                    </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:opacity-0 data-[disabled]:pointer-events-none" />
-                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:opacity-0 data-[disabled]:pointer-events-none" />
+                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8" />
+                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8" />
               </Carousel>
             </div>
           </div>
@@ -71,7 +71,7 @@ export function HeroSection() {
               <div className="absolute -top-2 -left-2 md:-top-3 md:-left-3 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-20">
                 BESTSELLER
               </div>
-              <Carousel className="w-full">
+              <Carousel className="w-full" opts={{ loop: true }}>
                 <CarouselContent>
                    <CarouselItem>
                      <img alt="The Natural Medicine Book" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/609c2e5e-3e22-4cc5-bc1c-6e601c8c9cba.png" loading="lazy" fetchPriority="high" />
@@ -86,8 +86,8 @@ export function HeroSection() {
                      <img alt="What Others Are Saying" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/f5a108b9-5d6f-4d91-a186-486c84d9ff8c.png" loading="lazy" />
                    </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:opacity-0 data-[disabled]:pointer-events-none" />
-                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 data-[disabled]:opacity-0 data-[disabled]:pointer-events-none" />
+                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8" />
+                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8" />
               </Carousel>
             </div>
           </div>
