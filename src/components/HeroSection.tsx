@@ -10,8 +10,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+
 export function HeroSection() {
-  return <section className="bg-cream py-4 md:py-8 lg:py-12 px-2">
+  return (
+    <section className="bg-cream py-4 md:py-8 lg:py-12 px-2">
       <div className="mx-auto max-w-6xl">
         {/* Mobile-only layout: Carousel first, then trust badge */}
         <div className="lg:hidden">
@@ -27,7 +29,7 @@ export function HeroSection() {
                      <img alt="The Natural Medicine Book with Content Pages" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/eb48a3b1-af98-43f1-bce5-850f741ad199.png" loading="lazy" fetchPriority="high" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="The Natural Medicine Book Complete Bundle with Digital Bonuses" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/e1125879-1ca8-4b4b-8a1a-5f33e48d83fe.png" loading="lazy" />
+                     <img alt="The Natural Medicine Book Complete Bundle with Digital Bonuses" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/769cc913-9f49-45ff-a6a9-260592e417c5.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
                      <img alt="Why You Need This Book - 6 Key Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/d5332c9b-a80f-4c89-b748-2a16471fe0dc.png" loading="lazy" />
@@ -89,7 +91,7 @@ export function HeroSection() {
                      <img alt="The Natural Medicine Book with Content Pages" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/eb48a3b1-af98-43f1-bce5-850f741ad199.png" loading="lazy" fetchPriority="high" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="The Natural Medicine Book Complete Bundle with Digital Bonuses" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/e1125879-1ca8-4b4b-8a1a-5f33e48d83fe.png" loading="lazy" />
+                     <img alt="The Natural Medicine Book Complete Bundle with Digital Bonuses" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/769cc913-9f49-45ff-a6a9-260592e417c5.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
                      <img alt="Why You Need This Book - 6 Key Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/d5332c9b-a80f-4c89-b748-2a16471fe0dc.png" loading="lazy" />
@@ -163,5 +165,6 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 }
