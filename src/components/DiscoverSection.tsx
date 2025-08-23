@@ -59,8 +59,8 @@ export function DiscoverSection() {
 
           <div className="flex justify-center order-first lg:order-last">
             <img 
-              src="/lovable-uploads/b5522541-ff70-4754-a887-7caa79ba9681.png" 
-              alt="The Natural Medicine Book with Brain & Mental Health section"
+              src="/lovable-uploads/7d6d3fa0-44bd-4046-9f9b-bc629602aea0.png" 
+              alt="The Natural Healing Handbook with herbs and natural remedies"
               className="rounded-2xl shadow-natural max-w-full h-auto"
             />
           </div>
