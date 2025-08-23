@@ -24,12 +24,12 @@ export function HeroSection() {
                 BESTSELLER
               </div>
               <Carousel className="w-full" opts={{ loop: true }}>
-                <CarouselContent>
+                 <CarouselContent>
                    <CarouselItem>
-                     <img alt="The Natural Medicine Book with Content Pages" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/eb48a3b1-af98-43f1-bce5-850f741ad199.png" loading="lazy" fetchPriority="high" />
+                     <img alt="The Natural Medicine Book Complete Bundle with Bonuses" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/81a09273-35fb-4c7c-af5e-54694eaa862f.png" loading="lazy" fetchPriority="high" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="The Natural Medicine Book Complete Bundle with Digital Bonuses" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/769cc913-9f49-45ff-a6a9-260592e417c5.png" loading="lazy" />
+                     <img alt="The Natural Medicine Book Content Pages" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/c7dd8c16-a195-475b-b275-465a5760f6cd.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
                      <img alt="Why You Need This Book - 6 Key Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/d5332c9b-a80f-4c89-b748-2a16471fe0dc.png" loading="lazy" />
@@ -86,12 +86,12 @@ export function HeroSection() {
                 BESTSELLER
               </div>
               <Carousel className="w-full" opts={{ loop: true }}>
-                <CarouselContent>
+                 <CarouselContent>
                    <CarouselItem>
-                     <img alt="The Natural Medicine Book with Content Pages" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/eb48a3b1-af98-43f1-bce5-850f741ad199.png" loading="lazy" fetchPriority="high" />
+                     <img alt="The Natural Medicine Book Complete Bundle with Bonuses" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/81a09273-35fb-4c7c-af5e-54694eaa862f.png" loading="lazy" fetchPriority="high" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="The Natural Medicine Book Complete Bundle with Digital Bonuses" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/769cc913-9f49-45ff-a6a9-260592e417c5.png" loading="lazy" />
+                     <img alt="The Natural Medicine Book Content Pages" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/c7dd8c16-a195-475b-b275-465a5760f6cd.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
                      <img alt="Why You Need This Book - 6 Key Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/d5332c9b-a80f-4c89-b748-2a16471fe0dc.png" loading="lazy" />
