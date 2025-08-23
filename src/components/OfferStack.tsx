@@ -36,7 +36,7 @@ export function OfferStack() {
             <CardContent className="p-6 md:p-8">
               {/* Product Image */}
               <div className="flex justify-center mb-6">
-                <img src="/lovable-uploads/440a78a5-11f3-4291-8140-e771d5085fa3.png" alt="Natural Medicine Book Package with Digital Bonuses" className="w-full max-w-lg h-auto" />
+                <img src="/lovable-uploads/81ffda72-e71d-4a49-a36a-d27ff562e17a.png" alt="Natural Medicine Book Package with Digital Bonuses" className="w-full max-w-lg h-auto" />
               </div>
 
               {/* Title */}
