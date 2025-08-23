@@ -56,7 +56,7 @@ const benefits = [{
 }, {
   id: 9,
   icon: Zap,
-  image: "/lovable-uploads/0d36ddb7-fe81-429d-afdc-83aa824bcb20.png",
+  image: "/lovable-uploads/a2d27730-e7d5-47f8-83a5-5ca884338e06.png",
   title: "What to Reach For When Life Throws You a Curveball",
   description: "⚕️ BONUS: When a cold strikes or a burn catches you off guard, it helps to have something on hand fast. That's why we've included the Herbal Emergency Kit, filled with quick, reliable solutions for life's most common mishaps.\n\nLearn what to keep in your herbal first-aid kit and how to use it to calm inflammation, support recovery, and feel in control even in the unexpected."
 }, {
