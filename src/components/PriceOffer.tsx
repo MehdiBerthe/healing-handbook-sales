@@ -6,7 +6,7 @@ export default function PriceOffer() {
         <div className="max-w-2xl mx-auto text-center">
           {/* Product Bundle Image */}
           <div className="relative mb-8">
-            <img src="/lovable-uploads/2a0a2b4d-0ce1-495d-84ed-60f59190f828.png" alt="The Natural Healing Handbook Bundle with Bonuses" className="w-full max-w-lg mx-auto h-auto" />
+            <img src="/lovable-uploads/eb7fc171-2230-4ee6-a6d5-3cfd22917571.png" alt="The Natural Healing Handbook Bundle with Bonuses" className="w-full max-w-lg mx-auto h-auto" />
           </div>
           
           {/* Included Text */}
