@@ -8,11 +8,12 @@ export default function Navigation() {
     <nav className="bg-white/95 backdrop-blur-sm border-b border-healing-light/30 sticky top-0 z-50">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-healing-green rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">NH</span>
-            </div>
-            <span className="text-lg font-semibold text-earth-brown">Natural Healing Hub</span>
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/1f2535c5-2ae3-49ad-b55b-cf1ef6e8be7c.png" 
+              alt="Ancient Remedies" 
+              className="h-10 w-auto"
+            />
           </div>
           
           <div className="flex items-center space-x-4">
