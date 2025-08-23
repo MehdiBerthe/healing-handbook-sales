@@ -27,7 +27,7 @@ export function Differentiators() {
         <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">What Makes The Natural Medicine Book Special?</h2>
         
         <div className="flex justify-center mb-8">
-          <img src="/lovable-uploads/c0c00da5-b62b-446d-9451-5c90a33080b6.png" alt="The Natural Medicine Book - Traditional Remedies for Modern Times" className="w-64 md:w-80 h-auto rounded-lg shadow-warm" />
+          <img src="/lovable-uploads/c23fbe1d-ed5d-4341-baae-7c158a628490.png" alt="The Natural Healing Handbook - Simple Recipes and Remedies for Every Condition" className="w-64 md:w-80 h-auto rounded-lg shadow-warm" />
         </div>
         
         <p className="text-xl text-center text-muted-foreground mb-12">
