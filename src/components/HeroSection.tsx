@@ -23,10 +23,13 @@ export function HeroSection() {
               <div className="absolute -top-2 -left-2 md:-top-3 md:-left-3 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-20">
                 BESTSELLER
               </div>
-              <Carousel className="w-full" opts={{ loop: true }}>
+               <Carousel className="w-full" opts={{ loop: true }}>
                  <CarouselContent>
                    <CarouselItem>
-                       <img alt="Why You Need This Book - 6 Key Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/340cc22a-9514-4daa-a826-ddc6950b086b.png" loading="lazy" fetchPriority="high" />
+                      <img alt="The Natural Healing Handbook Content Pages" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/9966a66f-73b8-4b12-b306-58fbbf268d35.png" loading="lazy" fetchPriority="high" />
+                   </CarouselItem>
+                   <CarouselItem>
+                       <img alt="Why You Need This Book - 6 Key Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/340cc22a-9514-4daa-a826-ddc6950b086b.png" loading="lazy" />
                    </CarouselItem>
                     <CarouselItem>
                        <img alt="The Natural Healing Handbook Complete Bundle with Bonuses" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/5ee1ad9b-921e-4323-b845-ba336036f4a0.png" loading="lazy" />
@@ -36,9 +39,6 @@ export function HeroSection() {
                    </CarouselItem>
                    <CarouselItem>
                       <img alt="What Others Are Saying - Customer Testimonials" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/68441494-fbd0-43f5-838c-cec4240ed8b0.png" loading="lazy" />
-                   </CarouselItem>
-                   <CarouselItem>
-                      <img alt="The Natural Healing Handbook Content Pages" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/9966a66f-73b8-4b12-b306-58fbbf268d35.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
                      <img alt="Everyday Ingredients - Natural Healing Components" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/dedf893f-d087-419f-8385-504c3d94bb35.png" loading="lazy" />
@@ -85,10 +85,13 @@ export function HeroSection() {
               <div className="absolute -top-2 -left-2 md:-top-3 md:-left-3 bg-forest-green text-white px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold text-xs md:text-sm z-20">
                 BESTSELLER
               </div>
-              <Carousel className="w-full" opts={{ loop: true }}>
+               <Carousel className="w-full" opts={{ loop: true }}>
                  <CarouselContent>
                    <CarouselItem>
-                     <img alt="Why You Need This Book - 6 Key Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/340cc22a-9514-4daa-a826-ddc6950b086b.png" loading="lazy" fetchPriority="high" />
+                     <img alt="The Natural Healing Handbook Content Pages" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/9966a66f-73b8-4b12-b306-58fbbf268d35.png" loading="lazy" fetchPriority="high" />
+                   </CarouselItem>
+                   <CarouselItem>
+                     <img alt="Why You Need This Book - 6 Key Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/340cc22a-9514-4daa-a826-ddc6950b086b.png" loading="lazy" />
                    </CarouselItem>
                     <CarouselItem>
                       <img alt="The Natural Healing Handbook Complete Bundle with Bonuses" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/5ee1ad9b-921e-4323-b845-ba336036f4a0.png" loading="lazy" />
@@ -98,9 +101,6 @@ export function HeroSection() {
                    </CarouselItem>
                    <CarouselItem>
                      <img alt="What Others Are Saying - Customer Testimonials" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/68441494-fbd0-43f5-838c-cec4240ed8b0.png" loading="lazy" />
-                   </CarouselItem>
-                   <CarouselItem>
-                     <img alt="The Natural Healing Handbook Content Pages" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/9966a66f-73b8-4b12-b306-58fbbf268d35.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
                      <img alt="Everyday Ingredients - Natural Healing Components" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/dedf893f-d087-419f-8385-504c3d94bb35.png" loading="lazy" />
