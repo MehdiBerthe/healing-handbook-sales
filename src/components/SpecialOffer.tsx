@@ -6,7 +6,7 @@ export default function SpecialOffer() {
             <div className="space-y-6">
               <div className="flex justify-center mb-6">
                 <div className="w-64 h-64 rounded-lg shadow-natural overflow-hidden">
-                  <img src="/lovable-uploads/0ccfae5d-d7dd-42bd-a589-3d910a09173c.png" alt="The Natural Healing Handbook - Traditional Remedies for Modern Times" className="w-full h-full object-cover rounded-lg shadow-natural" />
+                  <img src="/lovable-uploads/da5abde2-cba5-4aa1-aae6-c678c7e57df4.png" alt="The Natural Healing Handbook - Traditional Remedies for Modern Times" className="w-full h-full object-cover rounded-lg shadow-natural" />
                 </div>
               </div>
               
