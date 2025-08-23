@@ -50,7 +50,7 @@ const benefits = [{
 }, {
   id: 8,
   icon: Sprout,
-  image: "/lovable-uploads/cadcd23f-bd1f-4819-912b-bc33875786cc.png",
+  image: "/lovable-uploads/cb320b94-3d89-4a8c-89ef-7aa8d7598a67.png",
   title: "Even If You Only Have a Balcony, You Can Grow This",
   description: "🌿 BONUS: You don't need acres of land or a green thumb to grow your own medicine. This bonus Mini Garden Guide shows you how to cultivate seven essential healing herbs  even if you only have a windowsill or balcony.\n\nFrom calming lavender to immune-boosting oregano, you'll always have fresh remedies within arm's reach grown with your own hands."
 }, {
