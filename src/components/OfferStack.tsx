@@ -53,7 +53,7 @@ export function OfferStack() {
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <Check className="w-6 h-6 text-forest-green mt-1 flex-shrink-0" />
-                    <span className="text-gray-900 font-medium">1 Copy of the Natural Medecine Book</span>
+                    <span className="text-gray-900 font-medium">1 Copy of The Natural Healing Haandbook</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <Check className="w-6 h-6 text-forest-green mt-1 flex-shrink-0" />
