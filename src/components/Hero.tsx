@@ -8,7 +8,7 @@ export default function Hero() {
           <img 
             src="/lovable-uploads/1f2535c5-2ae3-49ad-b55b-cf1ef6e8be7c.png" 
             alt="Ancient Remedies Logo" 
-            className="h-16 w-auto"
+            className="h-12 w-auto py-5"
           />
         </div>
 
