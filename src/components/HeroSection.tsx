@@ -44,7 +44,7 @@ export function HeroSection() {
                      <img alt="Everyday Ingredients - Natural Healing Components" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/dedf893f-d087-419f-8385-504c3d94bb35.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="Extraordinary Results - Powerful Health Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/31f3ca22-1485-4c52-9fbe-0a51fb35e88c.png" loading="lazy" />
+                     <img alt="Natural Healing Handbook - Blood Sugar Balancing" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/d31d9974-9d8d-47fa-9cd4-6267ad12c5b8.png" loading="lazy" />
                    </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8" />
@@ -106,7 +106,7 @@ export function HeroSection() {
                      <img alt="Everyday Ingredients - Natural Healing Components" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/dedf893f-d087-419f-8385-504c3d94bb35.png" loading="lazy" />
                    </CarouselItem>
                    <CarouselItem>
-                     <img alt="Extraordinary Results - Powerful Health Benefits" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/31f3ca22-1485-4c52-9fbe-0a51fb35e88c.png" loading="lazy" />
+                     <img alt="Natural Healing Handbook - Blood Sugar Balancing" className="w-full h-auto rounded-lg shadow-natural" src="/lovable-uploads/d31d9974-9d8d-47fa-9cd4-6267ad12c5b8.png" loading="lazy" />
                    </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8" />
