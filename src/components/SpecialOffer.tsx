@@ -6,7 +6,7 @@ export default function SpecialOffer() {
             <div className="space-y-6">
               <div className="flex justify-center mb-6">
                 <div className="w-64 h-64 rounded-lg shadow-natural overflow-hidden">
-                  <img src="/lovable-uploads/0ccfae5d-d7dd-42bd-a589-3d910a09173c.png" alt="The Natural Medicine Book - Traditional Remedies for Modern Times" className="w-full h-full object-cover rounded-lg shadow-natural" />
+                  <img src="/lovable-uploads/0ccfae5d-d7dd-42bd-a589-3d910a09173c.png" alt="The natural healing handbook - Traditional Remedies for Modern Times" className="w-full h-full object-cover rounded-lg shadow-natural" />
                 </div>
               </div>
               
@@ -26,7 +26,7 @@ export default function SpecialOffer() {
                 </p>
                 
                 <p className="font-semibold text-earth-brown">
-                  Right now, Clara is offering <span className="text-healing-green">The Natural Medicine Book</span> for just <span className="text-2xl text-natural-gold font-bold">$19</span> — that's <span className="text-xl font-bold text-healing-green">$130 off</span> the regular retail price of $149.
+                  Right now, Clara is offering <span className="text-healing-green">The natural healing handbook</span> for just <span className="text-2xl text-natural-gold font-bold">$19</span> — that's <span className="text-xl font-bold text-healing-green">$130 off</span> the regular retail price of $149.
                 </p>
               </div>
             </div>

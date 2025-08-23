@@ -22,7 +22,7 @@ export default function Hero() {
             
             {/* Subheadline */}
             <p className="text-lg lg:text-xl text-foreground max-w-4xl mx-auto leading-relaxed">
-              "Forget overpriced pills and confusing advice. This $19 Natural Medicine Book is helping thousands over 50 feel sharper, lighter and regain control, naturally."
+              "Forget overpriced pills and confusing advice. This $19 natural healing handbook is helping thousands over 50 feel sharper, lighter and regain control, naturally."
             </p>
             
             {/* Author Info */}

@@ -24,7 +24,7 @@ export function Differentiators() {
   }];
   return <section className="py-16 px-2 bg-gradient-subtle">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">What Makes The Natural Medicine Book Special?</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">What Makes The natural healing handbook Special?</h2>
         
         <div className="flex justify-center mb-8">
           <img src="/lovable-uploads/c23fbe1d-ed5d-4341-baae-7c158a628490.png" alt="The Natural Healing Handbook - Simple Recipes and Remedies for Every Condition" className="w-64 md:w-80 h-auto rounded-lg shadow-warm" />
@@ -61,7 +61,7 @@ export function Differentiators() {
             <h3 className="text-2xl font-bold text-foreground mb-4">
               Unlike other herb books that just list plants...
             </h3>
-            <p className="text-lg text-muted-foreground">The Natural Medicine Book gives you a complete system: what to use, how to combine it, when to take it, and exactly how much.</p>
+            <p className="text-lg text-muted-foreground">The natural healing handbook gives you a complete system: what to use, how to combine it, when to take it, and exactly how much.</p>
           </div>
         </div>
       </div>
