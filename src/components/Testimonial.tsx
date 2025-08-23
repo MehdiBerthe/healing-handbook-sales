@@ -9,7 +9,7 @@ export default function Testimonial() {
               <div className="space-y-4">
                   <h3 className="font-bold text-earth-brown text-xl mb-4 pt-2">Summary:</h3>
                   <p className="text-muted-foreground leading-relaxed text-base">If you've ever felt like modern medicine was missing something, you're not alone. 
-Like many health-conscious people over 40, I was tired of the endless prescriptions, foggy thinking, and side effects. That's when I discovered "The natural healing handbook", a powerful guide filled with remedies that have stood the test of time.</p>
+Like many health-conscious people over 40, I was tired of the endless prescriptions, foggy thinking, and side effects. That's when I discovered "The Natural Healing Handbook", a powerful guide filled with remedies that have stood the test of time.</p>
                   <p className="text-muted-foreground leading-relaxed mt-4 text-base">
                     Created by renowned herbalist Clara Wells, it opened my eyes to what natural healing really looks like — and how to start using it today.
                   </p>

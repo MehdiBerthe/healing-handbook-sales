@@ -4,7 +4,7 @@ import { Check, Book, Gift, Shield, CreditCard } from "lucide-react";
 import { SecurityBadges } from "@/components/SecurityBadges";
 const offerItems = [{
   icon: Book,
-  title: "1x Copy of the natural healing handbook",
+  title: "1x Copy of The Natural Healing Handbook",
   description: "Complete guide to natural healing"
 }, {
   icon: Gift,
@@ -36,13 +36,13 @@ export function OfferStack() {
             <CardContent className="p-6 md:p-8">
               {/* Product Image */}
               <div className="flex justify-center mb-6">
-                <img src="/lovable-uploads/81ffda72-e71d-4a49-a36a-d27ff562e17a.png" alt="natural healing handbook Package with Digital Bonuses" className="w-full max-w-lg h-auto" />
+                <img src="/lovable-uploads/81ffda72-e71d-4a49-a36a-d27ff562e17a.png" alt="Natural Healing Handbook Package with Digital Bonuses" className="w-full max-w-lg h-auto" />
               </div>
 
               {/* Title */}
               <div className="text-center mb-6">
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-                  natural healing handbook
+                  Natural Healing Handbook
                 </h3>
                 <p className="text-gray-600 text-lg">The Complete Guide to Safe, Natural Health —Backed by Tradition and Science</p>
               </div>
